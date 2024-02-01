@@ -1,0 +1,5 @@
+    1  wget www.github.com
+    2  cd CS131
+    3  mkdir Worksheet1
+    4  cd Worksheet1
+    5  history > cmds.log
