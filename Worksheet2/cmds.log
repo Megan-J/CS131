@@ -1,0 +1,24 @@
+    1  history
+    2  history -2
+    3  history -w
+    4  history
+    5  history -2
+    6  history -w
+    7  history
+    8  cd CS131/
+    9  ls
+   10  mkdir Worksheet2
+   11  cd Worksheet2
+   12  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   13  clear
+   14  grep "United States" Global\ YouTube\ Statistics.csv 
+   15  clear
+   16  grep "Music" Global\ YouTube\ Statistics.csv > music.txt
+   17  cat music.txt 
+   18  grep "Music" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+   19  cat counts.txt
+   20  wc -w music.txt >> counts.txt
+   21  cat counts.txt 
+   22  vi counts.txt 
+   23  cat counts.txt 
+   24  history > cmds.log
