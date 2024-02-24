@@ -22,3 +22,21 @@
    22  vi counts.txt 
    23  cat counts.txt 
    24  history > cmds.log
+   25  git add .
+   26  git commit -m "completed wkst2"
+   27  git push
+   28  cd CS131/
+   29  cd Worksheet2
+   30  grep '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States,*' 'Global YouTube Statistics.csv' 
+   31  ls
+   32  grep '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States,*' 'Global YouTube Statistics.csv'
+   33  clear
+   34  grep '^[^,]*,[^,]*,[^,]*,[^,]*,Music,*' 'Global YouTube Statistics.csv' > music.txt
+   35  cat music.txt
+   36  wc -lw music.txt > counts.txt 
+   37  cat counts.txt 
+   38  vi counts.txt
+   39  clear
+   40  cat counts.txt 
+   41  history
+   42  history > cmds.log
