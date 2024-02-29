@@ -1,0 +1,112 @@
+    1  history
+    2  history -2
+    3  history -w
+    4  history
+    5  history -2
+    6  history -w
+    7  history
+    8  cd CS131/
+    9  ls
+   10  mkdir Worksheet2
+   11  cd Worksheet2
+   12  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   13  clear
+   14  grep "United States" Global\ YouTube\ Statistics.csv 
+   15  clear
+   16  grep "Music" Global\ YouTube\ Statistics.csv > music.txt
+   17  cat music.txt 
+   18  grep "Music" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+   19  cat counts.txt
+   20  wc -w music.txt >> counts.txt
+   21  cat counts.txt 
+   22  vi counts.txt 
+   23  cat counts.txt 
+   24  history > cmds.log
+   25  git add .
+   26  git commit -m "completed wkst2"
+   27  git push
+   28  cd CS131/
+   29  cd Worksheet2
+   30  grep '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States,*' 'Global YouTube Statistics.csv' 
+   31  ls
+   32  grep '^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,United States,*' 'Global YouTube Statistics.csv'
+   33  clear
+   34  grep '^[^,]*,[^,]*,[^,]*,[^,]*,Music,*' 'Global YouTube Statistics.csv' > music.txt
+   35  cat music.txt
+   36  wc -lw music.txt > counts.txt 
+   37  cat counts.txt 
+   38  vi counts.txt
+   39  clear
+   40  cat counts.txt 
+   41  history
+   42  history > cmds.log
+   43  git add .
+   44  git commit -m "updated wkst2"
+   45  git push
+   46  cd CS131/
+   47  mkdir Assignment1
+   48  cd Assignment1/
+   49  echo $SHELL
+   50  echo $SHELL > Assignment1.txt
+   51  cat Assignment1.txt 
+   52  echo ~ >> Assignment1.txt 
+   53  whoami
+   54  cd CS131/
+   55  cd Assignment1/
+   56  whoami
+   57  grep 'megansp24' /etc/passwd
+   58  grep 'megansp24' /etc/passwd >> Assignment1.txt 
+   59  mkdir myDir
+   60  chmod u-w myDir
+   61  cd myDir/
+   62  ls
+   63  ls -l
+   64  ls -l >> Assignment1.txt
+   65  vi file.txt
+   66  cd ..
+   67  mkdir myDir2
+   68  cd myDir2
+   69  cd ..
+   70  mkdir myDir3
+   71  cd myDir2
+   72  vi myFile.txt
+   73  mv myFile.txt ../myDir3
+   74  ls
+   75  vi myFile.txt
+   76  ls
+   77  mv myFile.txt ../myDir3
+   78  man free
+   79  free
+   80  cd ..
+   81  free >> Assignment1.txt
+   82  cd /etc/
+   83  ls
+   84  cat /etc/os-release
+   85  cd ..
+   86  cd CS131
+   87  whereami
+   88  pwd
+   89  ls
+   90  cd home
+   91  ls
+   92  cd ..
+   93  cd ~
+   94  ls
+   95  cd CS131
+   96  cd Assignment1/
+   97  cat /etc/os-release
+   98  cat /etc/os-release >> Assignment1.txt 
+   99  cd /etc/
+  100  ls -l
+  101  cd ~
+  102  ls
+  103  cd CS131/
+  104  cd Assignment1/
+  105  ls -l /etc/os-release 
+  106  ls -l /etc/os-release >> Assignment1.txt 
+  107  git add .
+  108  ls
+  109  cd CS131/
+  110  cd Assignment1/
+  111  ls
+  112  history > cmds.log
