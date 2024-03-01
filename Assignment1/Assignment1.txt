@@ -1,9 +1,47 @@
-/bin/bash
-/mnt/scratch/FA23_CS131_Ashish/megansp24
+Task 1:
+cd CS131
+mkdir Assignment1/
+cd Assignment1/
+
+Task 2a:
+/bin/bash	// the terminal output
+echo $SHELL	// the command used
+
+Task 2b:
+/mnt/scratch/FA23_CS131_Ashish/megansp24	// home directory path
+echo ~						// command used
+
+Task 3:
+// output of the grep 'megansp24' /etc/passwd command to find UID
+// my UID is 1197
 megansp24:x:1197:1197::/mnt/scratch/FA23_CS131_Ashish/megansp24:/bin/bash
+
+// output of the grep 'megansp24' /etc/group command to find my group
+// my group is S77
+S77:x:77:abdulwahabf23,junf23,saniaf23,haroldf23,brendanf23,maximf23,nicholasf23,samuelf23,ashishf23,benjaminf23,jamesf23,gabrielf23,tienf23,jonathanf23,brandonf23,nathanf23,thif23,bhavdeepf23,aaronf23,hof23,rogeliof23,anasf23,josephf23,hamzaf23,zipengf23,rikkif23,kobef23,jewonf23,shervanf23,amreenf23,divijf23,rahulf23,stevenf23,ishaf23,ashishk,matthewsp24,ryansp24,jimmysp24,edisonsp24,diyasp24,yelinsp24,tylersp24,balasaisp24,xiaosp24,henrisp24,acesp24,sangsp24,bennysp24,atishaysp24,davidsp24,jessesp24,sunidhisp24,khushisp24,tanishasp24,farihasp24,rickysp24,albertsp24,georgesp24,nhatsp24,taliasp24,henrysp24,akashsp24,xuebosp24,jadonsp24,manassp24,sandrasp24,robertosp24,madhavsp24,megansp24,brandonsp24,tylermsp24,pratiksp24,kevinsp24,maysp24,hardiksp24,aarushisp24,ashish
+megansp24:x:1197:
+
+Task 4:
+I can cd into the myDir directory. I can "ls" it. I can "ls -l" it. I cannot create files under it.
+
+Task 5:
+mkdir myDir2
+mkdir myDir3
+
+Task 6a:
+cd myDir2
+vi myFile.txt
+mv myFile.txt ../myDir3
+
+Task 6b:
+// used the free -m command to find that there is a total of 71367 mebibytes of total RAM/Memory in the IBM VM
               total        used        free      shared  buff/cache   available
-Mem:       73080640    33813440    19515008     3625280    19752192    34148672
-Swap:       4218816           0     4218816
+Mem:          71367       32957       19065        3571       19345       33381
+Swap:          4119           0        4119
+
+Task 9:
+// operating system veresion is 8.6 (Ootpa)
+// the /etc/os-release file contains the information below, including the os version
 NAME="Red Hat Enterprise Linux"
 VERSION="8.6 (Ootpa)"
 ID="rhel"
@@ -21,4 +59,8 @@ REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
 REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+Task 10:
+// all permissions (read, write, and execute) are given to all users for the file containing the OS 
+// version information (/etc/os-release)
 lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
