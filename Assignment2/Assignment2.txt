@@ -1,0 +1,61 @@
+Task 1:
+a) In this command, we are searching the entire filesystem for files in the directory /etc. Any errors in this command should be written to the two.txt file.
+b) one.txt contains files all in the path beginning with /etc. Thus, these files are in side the directory /etc or subdirectories in this directory. two.txt contains errors that occurred while searching such as permission denied to certain paths.
+
+The commands used to find this was:
+
+Task 2:
+     Output of the command:
+     15 2006,Mar
+     13 2014,Jul
+     12 2014,Aug
+     11 2016,Jul
+     11 2016,Jan
+     11 2014,Jan
+     11 2009,Sep
+     10 2014,Sep
+     10 2014,Mar
+     10 2013,Mar
+
+As per the dataset, top 3 [month, year] with the most number of YouTube channels created were:
+1. March, 2006 with 15 channels
+2. July, 2014 with 13 channels
+3. August, 2014 with 12 channels
+
+The commands used to find this was: 
+
+Task 3:
+Output of the command:
+    PID TTY          TIME CMD
+2465618 ?        00:00:00 systemd
+2465620 ?        00:00:00 (sd-pam)
+2465626 ?        00:00:00 sshd
+2465627 pts/2    00:00:00 bash
+2470816 pts/2    00:00:00 ps
+
+
+Task 4:
+    PID TTY          TIME CMD
+2465618 ?        00:00:00 systemd
+2465620 ?        00:00:00 (sd-pam)
+2465626 ?        00:00:00 sshd
+2465627 pts/2    00:00:00 bash
+2471656 ?        00:00:00 sshd
+2471657 pts/4    00:00:00 bash
+2471988 pts/2    00:00:00 vim
+2472251 pts/4    00:00:00 ps
+
+    PID TTY          TIME CMD
+2465618 ?        00:00:00 systemd
+2465620 ?        00:00:00 (sd-pam)
+2465626 ?        00:00:00 sshd
+2465627 pts/2    00:00:00 bash
+2471656 ?        00:00:00 sshd
+2471657 pts/4    00:00:00 bash
+2472329 pts/4    00:00:00 ps
+
+Task 5:
+    PID TTY          TIME CMD
+      1 ?        13:39:54 systemd
+
+Task 6:
