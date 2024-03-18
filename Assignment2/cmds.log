@@ -13,7 +13,7 @@ Task 1:
 Task 2:
     8  touch Assignment2.txt 
     9  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
-   10  cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort -nr | uniq -c | head
+   10  cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head
    11  cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head >> Assignment2.txt 
    12  vi Assignment2.txt 
 

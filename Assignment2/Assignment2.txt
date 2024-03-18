@@ -2,7 +2,7 @@ Task 1:
 a) In this command, we are searching the entire filesystem for files in the directory /etc. Any errors in this command should be written to the two.txt file.
 b) one.txt contains files all in the path beginning with /etc. Thus, these files are in side the directory /etc or subdirectories in this directory. two.txt contains errors that occurred while searching such as permission denied to certain paths.
 
-The commands used to find this was:
+The commands used to find this were find /etc -type f > one.txt 2> two.txt
 
 Task 2:
      Output of the command:
@@ -22,7 +22,12 @@ As per the dataset, top 3 [month, year] with the most number of YouTube channels
 2. July, 2014 with 13 channels
 3. August, 2014 with 12 channels
 
-The commands used to find this was: 
+The commands used to find this was: cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head
+	- The cut command will select portions of each line of a file and write them to standard output (the terminal). The -d parameter was used to specify the deliminer between text which is defined in the ','. The -f parameter was used to specify the fields that we want to select. Here we wanted to use 20-21 as the range of the fields since those specified the created_year and created_month columns. Global\ YouTube\ Statistics.csv was the file that we were selecting
+	- The sort command is to sort the output of the cut command. 
+	- The uniq command is to remove duplicates in the output of the sort command. The -c parameter is to add a count of the number of times the lines occurred in the sort command. 
+	- We need to use sort again to sort the output of the uniq command. We want to sort by the numbers in the beginning of the lines with the -n parameter. We use the -r to reverse sort to sort by higher to lowest.
+	- The head command is to only get the first 10 lines of the file so we don't need to load all the lines of the output.
 
 Task 3:
 Output of the command:
@@ -35,6 +40,7 @@ Output of the command:
 
 
 Task 4:
+Output of the command when the vi file.txt is still opened.
     PID TTY          TIME CMD
 2465618 ?        00:00:00 systemd
 2465620 ?        00:00:00 (sd-pam)
@@ -45,6 +51,9 @@ Task 4:
 2471988 pts/2    00:00:00 vim
 2472251 pts/4    00:00:00 ps
 
+The second opened terminal is recorded in the listed processes that I own. The Process ID for the vim 2471988l
+
+Output of the command when the file.txt is quitted.
     PID TTY          TIME CMD
 2465618 ?        00:00:00 systemd
 2465620 ?        00:00:00 (sd-pam)
@@ -54,8 +63,15 @@ Task 4:
 2471657 pts/4    00:00:00 bash
 2472329 pts/4    00:00:00 ps
 
+The both terminals are recorded in the listed processes that I own. Since the text file was closed, the Process ID for vim is now gone from the second terminal's list of processes that are running that I own.
+
 Task 5:
     PID TTY          TIME CMD
       1 ?        13:39:54 systemd
 
+The init process in Linux is the first process to start when the IBM VM starts. This process will continue to run until the VM is shut down.
+
+The command used to do this ps -p 1. We use the -p parameter to display the information about processes which match the specified process ID of 1, which belongs to the init process.
+
 Task 6:
+ps aux lists all processes that belong to other users and me. This command uses -a parameter to list out all processes and -u parameter for all other users and me. This command also uses the -x parameter to include other processes that are not associated with the current terminal session.
