@@ -14,7 +14,7 @@ Task 2:
     8  touch Assignment2.txt 
     9  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
    10  cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head
-   11  cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head >> Assignment2.txt 
+   11  cut -d ',' -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
    12  vi Assignment2.txt 
 
 Task 3:
@@ -22,14 +22,20 @@ Task 3:
    14  ps -u megansp24 >> Assignment2.txt 
    15  vi Assignment2.txt 
 
-Task 4:
+Task 4a:
    16  vi file.txt
 
+Task 4b:
+   17  ps -u megansp24
+
+Task 4d:
+   18  ps -u megansp24
+
 Task 5:
-   17  ps -p 1
-   18  ps -p 1 >> Assignment2.txt 
+   19  ps aux | grep "systemd" | head -1
+   20  ps aux | grep "systemd" | head -1 >> Assignment2.txt
 
 Task 6:
-   19  ps aux
-   20  vi Assignment2.txt 
-   21  history > cmds.log
+   21  ps aux
+   22  vi Assignment2.txt 
+   23  history > cmds.log
