@@ -1,0 +1,33 @@
+Task 1:
+
+Output of the command:
+DaFuq!?Boom!,United States,9200000
+
+Per the dataset, the highest monthly earner from the United States is DaFuq!?Boom! with a monthly earning 9,200,000
+
+Output of the command:
+Woody & Kleiny,United Kingdom,2000000
+
+Per the dataset, the highest monthly earner from the United Kingdom is Woody & Kleiny with a monthly earning of 2,000,000
+
+Output of the command:
+T-Series,India,9000000
+
+Per the dataset, the highest monthly earner from India is T-Series with a monthly earning of 9,000,000
+
+Task 2:
+
+Output of the command:
+WWE,96000000,Sports
+
+Per the dataset, the highest subscribed channel from Sports is WWE with 96,000,000 subscribers
+
+Output of the command:
+Cocomelon - Nursery Rhymes,162000000,Education
+
+Per the dataset, the highest subscribed channel from Education is Cocomelon - Nursery Rhymes with 162,000,000 subscribers
+
+Output of the command:
+MrBeast,166000000,Entertainment
+
+Per the dataset the highest subscribed channel from Entertainment is MrBeast with 166,000,000 subscribers

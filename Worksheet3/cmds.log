@@ -1,0 +1,47 @@
+### ------ WORKSHEET 3 ------ ###
+
+Initialization Tasks:
+    1  history -w
+    2  cd CS131/
+    3  mkdir Worksheet3
+    4  cd Worksheet3
+    5  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+    6  touch ws3.txt
+
+Task 1:
+
+United States:
+    7  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,[^,]*,United States,*' | sort -t',' -k3 -rn | head -n 1 >> ws3.txt 
+    8  vi ws3.txt 
+    9  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,[^,]*,United States,*' | sort -t',' -k3 -rn
+   10  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,[^,]*,United States,*' | sort -t, -k3 -rn
+   11  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,United States,*' | sort -t, -k3 -rn
+   12  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,United States,*' | sort -t, -k3 -rn | head -n 1 >>ws3.txt 
+   13  vi ws3.txt 
+
+United Kingdom:
+   14  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,United Kingdom,*' | sort -t, -k3 -rn | head -n 1 >>ws3.txt 
+   15  vi ws3.txt 
+
+India:
+   16  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,India,*' | sort -t, -k3 -rn | head -n 1 >>ws3.txt
+
+
+Task 2:
+Sports:
+   17  cut -d "," -f 2,8,16 Global\ YouTube\ Statistics.csv | grep '^[^,]*,Sports,*' | sort -t, -k2 -rn | head -n 1 >>ws3.txt 
+   18  vi ws3.txt 
+   19  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | sort -rn | grep "Sports" | head -n 3
+   20  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | sort -t"," -k2 -rn | grep "'^[^,]*,[^,]*,Sports,*" | head -n 3
+   21  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | sort -t"," -k2 -rn | grep "^[^,]*,[^,]*,Sports,*" | head -n 3
+   22  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | sort -t"," -k2 -rn | grep "^[^,]*,[^,]*,Sports,*" | head -n 1 >> ws3.txt 
+   23  vi ws3.txt 
+
+Education:
+   24  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | sort -t"," -k2 -rn | grep "^[^,]*,[^,]*,Education,*" | head -n 1 >> ws3.txt 
+   25  vi ws3.txt 
+
+Entertainment:
+   26  cut -d "," -f 2,3,5 Global\ YouTube\ Statistics.csv | sort -t"," -k2 -rn | grep "^[^,]*,[^,]*,Entertainment,*" | head -n 1 >> ws3.txt 
+   27  vi ws3.txt 
+   28  history >> cmds.log
