@@ -1,0 +1,700 @@
+Script started on 2024-04-10 13:27:01-04:00
+bash-4.4$ ls
+CS131  index.html  test.log  ws4.txt
+bash-4.4$ ce[Kd CS131
+bash-4.4$ mkdir Worksheet4
+bash-4.4$ cd Worksheet4
+bash-4.4$ d[Kcd HOME
+bash: cd: HOME: No such file or directory
+bash-4.4$ cs
+bash: cs: command not found
+bash-4.4$ cd ..
+bash-4.4$ pws
+bash: pws: command not found
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/megansp24/CS131
+bash-4.4$ cd ..
+bash-4.4$ cd ~
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/megansp24
+bash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ vi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;45r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[45;1H".bashrc" [New File][2;1H[94m~                                                                                                                             [3;1H~                                                                                                                             [4;1H~                                                                                                                             [5;1H~                                                                                                                             [6;1H~                                                                                                                             [7;1H~                                                                                                                             [8;1H~                                                                                                                             [9;1H~                                                                                                                             [10;1H~                                                                                                                             [11;1H~                                                                                                                             [12;1H~                                                                                                                             [13;1H~                                                                                                                             [14;1H~                                                                                                                             [15;1H~                                                                                                                             [16;1H~                                                                                                                             [17;1H~                                                                                                                             [18;1H~                                                                                                                             [19;1H~                                                                                                                             [20;1H~                                                                                                                             [21;1H~                                                                                                                             [22;1H~                                                                                                                             [23;1H~                                                                                                                             [24;1H~                                                                                                                             [25;1H~                                                                                                                             [26;1H~                                                                                                                             [27;1H~                                                                                                                             [28;1H~                                                                                                                             [29;1H~                                                                                                                             [30;1H~                                                                                                                             [31;1H~                                                                                                                             [32;1H~                                                                                                                             [33;1H~                                                                                                                             [34;1H~                                                                                                                             [35;1H~                                                                                                                             [36;1H~                                                                                                                             [37;1H~                                                                                                                             [38;1H~                                                                                                                             [39;1H~                                                                                                                             [40;1H~                                                                                                                             [41;1H~                                                                                                                             [42;1H~                                                                                                                             [43;1H~                                                                                                                             [44;1H~                                                                                                                             [1;1H[?25h[?25l[m[45;1H[K[45;1H:[?2004h[?25hx[?25l[?2004l[45;1H[K[45;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ #[Kvi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;45r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[45;1H".bashrc" [New File][2;1H[94m~                                                                                                                             [3;1H~                                                                                                                             [4;1H~                                                                                                                             [5;1H~                                                                                                                             [6;1H~                                                                                                                             [7;1H~                                                                                                                             [8;1H~                                                                                                                             [9;1H~                                                                                                                             [10;1H~                                                                                                                             [11;1H~                                                                                                                             [12;1H~                                                                                                                             [13;1H~                                                                                                                             [14;1H~                                                                                                                             [15;1H~                                                                                                                             [16;1H~                                                                                                                             [17;1H~                                                                                                                             [18;1H~                                                                                                                             [19;1H~                                                                                                                             [20;1H~                                                                                                                             [21;1H~                                                                                                                             [22;1H~                                                                                                                             [23;1H~                                                                                                                             [24;1H~                                                                                                                             [25;1H~                                                                                                                             [26;1H~                                                                                                                             [27;1H~                                                                                                                             [28;1H~                                                                                                                             [29;1H~                                                                                                                             [30;1H~                                                                                                                             [31;1H~                                                                                                                             [32;1H~                                                                                                                             [33;1H~                                                                                                                             [34;1H~                                                                                                                             [35;1H~                                                                                                                             [36;1H~                                                                                                                             [37;1H~                                                                                                                             [38;1H~                                                                                                                             [39;1H~                                                                                                                             [40;1H~                                                                                                                             [41;1H~                                                                                                                             [42;1H~                                                                                                                             [43;1H~                                                                                                                             [44;1H~                                                                                                                             [1;1H[?25h[?25l[m[45;1H[97m[41mE348: No string under cursor[1;1H[?25h[?25l[m[45;1H[1m-- INSERT --[m[45;13H[K[1;1H[?25h[?25l#[?25h[?25l [?25h[?25l.[?25h[?25lb[?25h[?25la[?25h[?25ls[?25h[?25lh[?25h[?25lr[?25h[?25lc[?25h[?25l[2;1H[K[2;1H[?25h[?25l[3;1H[K[3;1H[?25h[?25la[?25h[?25ll[?25h[?25li[?25h[?25la[?25h[?25ls[?25h[?25l [?25h[?25l'[?25h[?25l [?25h[?25l[?25h[?25l[3;7H[K[3;7H[?25h[?25ll[?25h[?25l [?25h[?25l[?25h[?25l=[?25h[?25l'[?25h[?25ll[?25h[?25ls[?25h[?25l [?25h[?25l-[?25h[?25ll[?25h[?25la[?25h[?25lt[?25h[?25l[3;16H[K[3;16H[?25h[?25l[3;15H[K[3;15H[?25h[?25lt[?25h[?25lr[?25h[?25l'[?25h[?25l[4;1H[K[4;1H[?25h[?25la[?25h[?25ll[?25h[?25li[?25h[?25la[?25h[?25ls[?25h[?25l [?25h[?25lw[?25h[?25l=[?25h[?25l'[?25h[?25ll[?25h[?25ls[?25h[?25l-[?25h[?25l[4;12H[K[4;12H[?25h[?25l [?25h[?25l-[?25h[?25ll[?25h[?25lm[?25h[?25l[4;15H[K[4;15H[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lw[?25h[?25lc[?25h[?25l"[?25h[45;1H[K[4;20H[?25l[?25h[?25l[45;1H[1m-- INSERT --[4;20H[?25h[?25l[m"[4;20H[K[4;19H[?25h"[?25l[4;19H[K[4;19H[?25h[?25lc[?25h[?25l'[?25h[45;1H[K[4;20H[?25l[?25h[?25l[45;1H:[?2004h[?25hx[?25l[?2004l".bashrc" [New] 4L, 50C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ source .bashrc
+bash-4.4$ l
+total 224
+-rw-rw-r-- 1 megansp24 megansp24     26 Feb  1 18:49 test.log
+-rw-rw-r-- 1 megansp24 megansp24 207992 Feb  1 18:50 index.html
+drwxrwxr-x 9 megansp24 megansp24   4096 Apr 10 13:27 CS131
+-rw-rw-r-- 1 megansp24 megansp24  12288 Apr 10 13:36 ws4.txt
+bash-4.4$ w
+      5      38     256
+bash-4.4$ cd CS131/
+bash-4.4$ cd Worksheet4
+bash-4.4$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+--2024-04-10 13:40:18--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: â€˜Global YouTube Statistics.csvâ€™
+
+Global YouTube Statistics.csv     0%[                                                      ]       0  --.-KB/s               Global YouTube Statistics.csv   100%[=====================================================>] 195.58K  --.-KB/s    in 0.009s  
+
+2024-04-10 13:40:18 (21.0 MB/s) - â€˜Global YouTube Statistics.csvâ€™ saved [200279/200279]
+
+bash-4.4$ mkdir[K[K[K[K[Kls
+'Global YouTube Statistics.csv'
+bash-4.4$ rm Global\ YouTube\ Statistics.csv 
+bash-4.4$ ls
+bash-4.4$ mkdir Subscribers
+bash-4.4$ cd Subscribers/
+bash-4.4$ cat[K[K[Khead [K[K[K[K[Kwget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+--2024-04-10 13:43:35--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: â€˜Global YouTube Statistics.csvâ€™
+
+Global YouTube Statistics.csv     0%[                                                      ]       0  --.-KB/s               Global YouTube Statistics.csv   100%[=====================================================>] 195.58K  --.-KB/s    in 0.01s   
+
+2024-04-10 13:43:35 (17.0 MB/s) - â€˜Global YouTube Statistics.csvâ€™ saved [200279/200279]
+
+bash-4.4$ ls
+'Global YouTube Statistics.csv'
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/megansp24/CS131/Worksheet4/Subscribers
+bash-4.4$ head g[KGlobal\ YouTube\ Statistics.csv 
+rank,Youtuber,subscribers,video views,category,Title,uploads,Country,Abbreviation,channel_type,video_views_rank,country_rank,channel_type_rank,video_views_for_the_last_30_days,lowest_monthly_earnings,highest_monthly_earnings,lowest_yearly_earnings,highest_yearly_earnings,subscribers_for_last_30_days,created_year,created_month,created_date,Gross tertiary education enrollment (%),Population,Unemployment rate,Urban_population,Latitude,Longitude
+1,T-Series,245000000,2.28E+11,Music,T-Series,20082,India,IN,Music,1,1,1,2258000000,564600,9000000,6800000,108400000,2000000,2006,Mar,13,28.1,1366417754,5.36,471031528,20.593684,78.96288
+2,YouTube Movies,170000000,0,Film & Animation,youtubemovies,1,United States,US,Games,4055159,7670,7423,12,0,0.05,0.04,0.58,nan,2006,Mar,5,88.2,328239523,14.7,270663028,37.09024,-95.712891
+3,MrBeast,166000000,28368841870,Entertainment,MrBeast,741,United States,US,Entertainment,48,1,1,1348000000,337000,5400000,4000000,64700000,8000000,2012,Feb,20,88.2,328239523,14.7,270663028,37.09024,-95.712891
+4,Cocomelon - Nursery Rhymes,162000000,1.64E+11,Education,Cocomelon - Nursery Rhymes,966,United States,US,Education,2,2,1,1975000000,493800,7900000,5900000,94800000,1000000,2006,Sep,1,88.2,328239523,14.7,270663028,37.09024,-95.712891
+5,SET India,159000000,1.48E+11,Shows,SET India,116536,India,IN,Entertainment,3,2,2,1824000000,455900,7300000,5500000,87500000,1000000,2006,Sep,20,28.1,1366417754,5.36,471031528,20.593684,78.96288
+6,Music,119000000,0,nan,Music,0,nan,nan,Music,4057944,nan,nan,nan,0,0,0,0,nan,2013,Sep,24,nan,nan,nan,nan,nan,nan
+7,ýýý Kids Diana Show,112000000,93247040539,People & Blogs,ýýý Kids Diana Show,1111,United States,US,Entertainment,5,3,3,731674000,182900,2900000,2200000,35100000,nan,2015,May,12,88.2,328239523,14.7,270663028,37.09024,-95.712891
+8,PewDiePie,111000000,29058044447,Gaming,PewDiePie,4716,Japan,JP,Entertainment,44,1,4,39184000,9800,156700,117600,1900000,nan,2010,Apr,29,63.2,126226568,2.29,115782416,36.204824,138.252924
+9,Like Nastya,106000000,90479060027,People & Blogs,Like Nastya Vlog,493,Russia,RU,People,630,5,25,48947000,12200,195800,146800,2300000,100000,2016,Jan,14,81.9,144373535,4.59,107683889,61.52401,105.318756
+bash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ clear
+[3J[H[2Jbash-4.4$ cut -d "," -f 3, [K8 Global\ YouTube\ Statistics.csv | grep 'United States' | head
+170000000,United States
+166000000,United States
+162000000,United States
+112000000,United States
+98900000,United States
+96000000,United States
+75000000,United States
+68200000,United States
+59500000,United States
+59500000,United States
+bash-4.4$ cut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'United States' | head[K[K[K[K[K[K> UnitedStates.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K Subscribers/United_States.txt
+bash: Subscribers/United_States.txt: No such file or directory
+bash-4.4$ touch Subscribers/United_States.txt
+touch: cannot touch 'Subscribers/United_States.txt': No such file or directory
+bash-4.4$ ls
+'Global YouTube Statistics.csv'
+bash-4.4$ pws
+bash: pws: command not found
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/megansp24/CS131/Worksheet4/Subscribers
+bash-4.4$ vi Subscribers/United_states.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;50r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[50;1H"Subscribers/United_states.txt" [New DIRECTORY][2;1H[94m~                                                                                                                                                                          [3;1H~                                                                                                                                                                          [4;1H~                                                                                                                                                                          [5;1H~                                                                                                                                                                          [6;1H~                                                                                                                                                                          [7;1H~                                                                                                                                                                          [8;1H~                                                                                                                                                                          [9;1H~                                                                                                                                                                          [10;1H~                                                                                                                                                                          [11;1H~                                                                                                                                                                          [12;1H~                                                                                                                                                                          [13;1H~                                                                                                                                                                          [14;1H~                                                                                                                                                                          [15;1H~                                                                                                                                                                          [16;1H~                                                                                                                                                                          [17;1H~                                                                                                                                                                          [18;1H~                                                                                                                                                                          [19;1H~                                                                                                                                                                          [20;1H~                                                                                                                                                                          [21;1H~                                                                                                                                                                          [22;1H~                                                                                                                                                                          [23;1H~                                                                                                                                                                          [24;1H~                                                                                                                                                                          [25;1H~                                                                                                                                                                          [26;1H~                                                                                                                                                                          [27;1H~                                                                                                                                                                          [28;1H~                                                                                                                                                                          [29;1H~                                                                                                                                                                          [30;1H~                                                                                                                                                                          [31;1H~                                                                                                                                                                          [32;1H~                                                                                                                                                                          [33;1H~                                                                                                                                                                          [34;1H~                                                                                                                                                                          [35;1H~                                                                                                                                                                          [36;1H~                                                                                                                                                                          [37;1H~                                                                                                                                                                          [38;1H~                                                                                                                                                                          [39;1H~                                                                                                                                                                          [40;1H~                                                                                                                                                                          [41;1H~                                                                                                                                                                          [42;1H~                                                                                                                                                                          [43;1H~                                                                                                                                                                          [44;1H~                                                                                                                                                                          [45;1H~                                                                                                                                                                          [46;1H~                                                                                                                                                                          [47;1H~                                                                                                                                                                          [48;1H~                                                                                                                                                                          [49;1H~                                                                                                                                                                          [1;1H[?25h[?25l[m[50;1H[K[50;1H:[?2004h[?25hx[?25l[?2004l[50;1H[K[50;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ ls
+'Global YouTube Statistics.csv'
+[97m[41m"Subscribers/United_States.txt" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[m[1;1H[2L[?25l[50;1H[K[2;1H[?25h[?25l[50;1H[1m-- INSERT --[2;1H[?25h[?25l[ms[?25h[?25ld[?25h[?25lf[?25h[?25l[2;3H[K[2;3H[?25h[?25l[2;2H[K[2;2H[?25h[?25l[2;1H[K[2;1H[?25h[?25l[94m~                                                                                                                                                                          [1;1H[?25h[?25l[ma[?25h[?25ls[?25h[?25ld[?25h[?25lf[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25lU[?25h[?25ln[?25h[?25li[?25h[?25lt[?25h[?25le[?25h[?25ld[?25h[?25l [?25h[?25lS[?25h[?25lt[?25h[?25la[?25h[?25lt[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25ls[?25h[?25lub[?25h[?25lc[?25h[?25l[1;18H[K[1;18H[?25h[?25ls[?25h[?25lc[?25h[?25lr[?25h[?25li[?25h[?25lb[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[50;1H[K[1;25H[?25l[?25h[?25l[50;1H:[?2004h[?25hx[?25l[?2004l"Subscribers/United_States.txt"
+[97m[41m"Subscribers/United_States.txt" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[m[1;1H[2L[?25l[1;1HUnited States subscribers
+[94m~                                                                                                                                                                          [m[50;1H[K[1;25H[?25h[?25l[50;1H:[?2004h[?25hx[?25l[?2004l"Subscribers/United_States.txt"
+[97m[41m"Subscribers/United_States.txt" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[?25l[m[50;1H[K[50;1H:[?2004h[?25hx![?25l[?2004l"Subscribers/United_States.txt"
+[97m[41m"Subscribers/United_States.txt" E212: Can't open file for writing[?2004h[m
+[32mPress ENTER or type command to continue[?25h[?25l[m[50;1H[K[50;1H:[?2004h[?25hq![?25l[?2004l[50;1H[K[50;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ ls
+'Global YouTube Statistics.csv'
+bash-4.4$ touch Uniteds[K_T[KStates.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   United_States.txt
+bash-4.4$ lstouch United_States.txt[C[C[C[C[C[C[C[C[C[Cls[Kvi Subscribers/United_States.txt[C[C[C[C[C[C[C[C[C[Cls[Kvi Subscribers/United_states.txt[C[C[C[C[C[C[C[C[C[Cpwd[Ks[1Plstouch Subscribers/United_States.txt[C[C[C[C[C[C[C[C[C[C[69@cut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'United States' >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KUnited_st[K[KStates.txt
+bash-4.4$ cut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'United States' > United_States.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtI.txtn.txtd.txti.txta.txt[C[C[C[C
+bash-4.4$ vi India.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;50r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[50;1H"India.txt" 168L, 2522C[1;1H245000000,India
+159000000,India
+96700000,India
+83000000,India
+70500000,India
+65900000,India
+65600000,India
+64600000,India
+61000000,India
+59300000,India
+58000000,India
+57600000,India
+57200000,India
+54600000,India
+53300000,India
+47400000,India
+45500000,India
+42500000,India
+41400000,India
+39200000,India
+38300000,India
+38200000,India
+37200000,India
+37000000,India
+36600000,India
+35500000,India
+35500000,India
+35400000,India
+34300000,India
+34000000,India
+33500000,India
+33500000,India
+33400000,India
+32700000,India
+32000000,India
+31700000,India
+31700000,India
+30700000,India
+30500000,India
+29800000,India
+28900000,India
+28400000,India
+28300000,India
+28200000,India
+27300000,India
+27100000,India
+26400000,India
+26300000,India
+25200000,India[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;49r[49;1H
+[1;50r[49;1H24300000,India[50;1H[K[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23100000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23100000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22900000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20900000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H18800000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H18600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17800000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16900000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16900000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15800000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15800000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15300000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14700000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14600000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000,India[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000,India[44;1H[?25h[43;1H[42;1H[41;1H[40;1H[39;1H[38;1H[37;1H[36;1H[35;1H[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[?25l[1;49r[1;1H[L[1;50r[1;1H19200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20900000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22900000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23100000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23100000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H24300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H25200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H26300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H26400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H27100000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H27300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28900000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H29800000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H30500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H30700000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H31700000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H31700000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H32000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H32700000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H33400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H33500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H33500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H34000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H34300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H35400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H35500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H35500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H36600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H37000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H37200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H38200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H38300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H39200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H41400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H42500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H45500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H47400000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H53300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H54600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H57200000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H57600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H58000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H59300000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H61000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H64600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H65600000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H65900000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H70500000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H83000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H96700000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H159000000,India[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H245000000,India[6;1H[?25h[5;1H[4;1H[3;1H[2;1H[1;1H[?25l[50;1H:[?2004h[?25hq[?25l[?2004l[50;1H[K[50;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi India.txt [C[C[C[C[C[C[C[C[C[Ccut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'India' > India.txtUnited States' > United_States.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K| cut -d "," -f 1 | head
+170000000
+166000000
+162000000
+112000000
+98900000
+96000000
+75000000
+68200000
+59500000
+59500000
+bash-4.4$ cut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'United States' | cut -d "," -f 1 | head[C[C[C[C[C[C[C[C[C[Cvi India.txt [K[C[C[C[C[C[C[C[C[C[Ccut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'United States' | cut -d "," -f 1 | head[K[K[K[K[K[K> United_States.txt
+bash-4.4$ cut -d "," -f 3,8 Global\ YouTube\ Statistics.csv | grep 'United States' | cut -d "," -f 1 > United_States.txt| head[K> United_States.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtI.txtn.txtd.txti.txta.txt[C[C[C[C
+bash-4.4$ vi IN[Kndia.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;50r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[50;1H"India.txt" 168L, 1514C[1;1H245000000
+159000000
+96700000
+83000000
+70500000
+65900000
+65600000
+64600000
+61000000
+59300000
+58000000
+57600000
+57200000
+54600000
+53300000
+47400000
+45500000
+42500000
+41400000
+39200000
+38300000
+38200000
+37200000
+37000000
+36600000
+35500000
+35500000
+35400000
+34300000
+34000000
+33500000
+33500000
+33400000
+32700000
+32000000
+31700000
+31700000
+30700000
+30500000
+29800000
+28900000
+28400000
+28300000
+28200000
+27300000
+27100000
+26400000
+26300000
+25200000[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;49r[49;1H
+[1;50r[49;1H24300000[50;1H[K[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H18800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H18600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12300000[44;1H[?25h
+
+
+
+
+[48;1H[47;1H[46;1H[45;1H[44;1H[43;1H[42;1H[41;1H[40;1H[39;1H[38;1H[37;1H[36;1H[35;1H[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[?25l[1;49r[1;1H[L[1;50r[1;1H14500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H14600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H14700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H14700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15800000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H15800000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16900000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H16900000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H17800000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H18600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H18800000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H19500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H20900000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H21600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H22900000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23100000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23100000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H23400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H24300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H25200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H26300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H26400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H27100000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H27300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H28900000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H29800000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H30500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H30700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H31700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H31700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H32000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H32700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H33400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H33500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H33500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H34000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H34300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H35400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H35500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H35500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H36600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H37000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H37200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H38200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H38300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H39200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H41400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H42500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H45500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H47400000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H53300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H54600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H57200000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H57600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H58000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H59300000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H61000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H64600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H65600000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H65900000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H70500000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H83000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H96700000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H159000000[6;1H[?25h[?25l[1;49r[1;1H[L[1;50r[1;1H245000000[6;1H[?25h[5;1H[4;1H[3;1H[2;1H[1;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;49r[49;1H
+[1;50r[49;1H24300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H23000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H22500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H21300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H20000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H19000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H18800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H18600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H17000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H16000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H15000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H14000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13900000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13600000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13200000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13100000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H13000000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12800000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12700000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12500000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12400000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12300000[44;1H[?25h[?25l[1;49r[49;1H
+[1;50r[49;1H12300000[44;1H[?25h
+
+
+
+
+[?25l
+:[?2004h[?25hq[?25l[?2004l[50;1H[K[50;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ touch ws4_means.txt
+bash-4.4$ awk '{su[K[K sum += $1; n++ } END { sum "\[K/" n } ' United_States.txt | [1@p[1@r[1@i[1@n[1@t[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbc ws4_means.txt 
+23416932
+bash-4.4$ vi ws4_means.txt 
+(standard_in) 1: syntax error
+bash-4.4$ awk '{ sum += $1; n++ } END { print sum/n } ' United_States.txt | bc[1P[C[1P[1@}
+(standard_in) 1: syntax error
+bash-4.4$ awk '{ sum += $1; n++ } END { print sum/n }' United_States.txt | bc[1@"[C[1@"
+23416932
+bash-4.4$ awk '{ sum += $1; n++ } END { print sum"/"n }' United_States.txt | bc[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@i[1P[1@d[1@i[1@a
+25658333
+bash-4.4$ awk '{ sum += $1; n++ } END { print sum"/"n }' India.txt | bc[8@United_States[C[C[C[C[C[C[C[C[C > ws4_means.txt 
+bash-4.4$ awk '{ sum += $1; n++ } END { print sum"/"n }' United_States.txt | bc > ws4_means.txt [C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@>
+bash-4.4$ vi ws4_means.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;50r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[50;1H"ws4_means.txt" 2L, 18C[1;1H23416932
+25658333
+bash-4.4$ exit
+
+Script done on 2024-04-10 14:04:31-04:00
