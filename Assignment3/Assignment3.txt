@@ -1,0 +1,1015 @@
+TASK 1:
+
+Command: last
+Output of Command:
+madhavsp pts/54       172.29.96.179    Fri Apr 19 19:03   still logged in
+georgesp pts/53       172.29.96.173    Fri Apr 19 19:02   still logged in
+connersp pts/52       172.29.96.178    Fri Apr 19 19:02   still logged in
+megansp2 pts/51       172.29.96.168    Fri Apr 19 18:54   still logged in
+jadonsp2 pts/50       172.29.96.177    Fri Apr 19 18:54   still logged in
+jimmysp2 pts/43       172.29.96.176    Fri Apr 19 18:30   still logged in
+kevinsp2 pts/42       172.29.96.175    Fri Apr 19 18:26   still logged in
+georgesp pts/40       172.29.96.173    Fri Apr 19 18:13   still logged in
+georgesp pts/39       172.29.96.173    Fri Apr 19 18:12   still logged in
+brandons pts/28       172.29.96.174    Fri Apr 19 18:12   still logged in
+farihasp pts/38       172.29.96.170    Fri Apr 19 17:19   still logged in
+yelinsp2 pts/37       172.29.96.168    Fri Apr 19 17:10   still logged in
+davidsp2 pts/32       172.29.96.167    Fri Apr 19 16:30   still logged in
+athishsp pts/29       172.29.96.169    Fri Apr 19 16:26   still logged in
+bennysp2 pts/27       172.29.96.172    Fri Apr 19 15:44   still logged in
+alexsp24 pts/32       172.29.96.167    Fri Apr 19 15:02 - 15:59  (00:56)
+megansp2 pts/28       172.29.96.168    Fri Apr 19 14:52 - 18:03  (03:11)
+alexsp24 pts/37       172.29.96.167    Fri Apr 19 14:01 - 17:03  (03:02)
+taliasp2 pts/32       172.29.96.165    Fri Apr 19 13:02 - 14:33  (01:30)
+maysp24  pts/29       172.29.96.174    Fri Apr 19 13:00 - 15:28  (02:28)
+robertsp pts/28       172.29.96.173    Fri Apr 19 12:59 - 14:07  (01:07)
+jonathan pts/27       172.29.96.171    Fri Apr 19 10:55 - 15:09  (04:13)
+ajaysp24 pts/27       172.29.96.171    Fri Apr 19 06:38 - 08:20  (01:41)
+athishsp pts/29       172.29.96.172    Fri Apr 19 05:12 - 07:15  (02:03)
+sandrasp pts/28       172.29.96.170    Fri Apr 19 05:01 - 06:02  (01:00)
+tylersp2 pts/28       172.29.96.170    Fri Apr 19 03:52 - 04:08  (00:15)
+madhavsp pts/28       172.29.96.168    Fri Apr 19 01:48 - 01:48  (00:00)
+piercesp pts/29       172.29.96.166    Fri Apr 19 00:54 - 02:27  (01:32)
+piercesp pts/29       172.29.96.166    Fri Apr 19 00:45 - 00:54  (00:09)
+madhavsp pts/32       172.29.96.168    Fri Apr 19 00:23 - 03:46  (03:23)
+piercesp pts/29       172.29.96.166    Thu Apr 18 23:36 - 00:44  (01:07)
+swansp24 pts/28       172.29.96.163    Thu Apr 18 23:19 - 01:24  (02:04)
+vaikunta pts/27       172.29.96.162    Thu Apr 18 23:08 - 05:39  (06:31)
+taliasp2 pts/29       172.29.96.157    Thu Apr 18 20:43 - 20:44  (00:01)
+swansp24 pts/27       172.29.96.156    Thu Apr 18 20:27 - 21:52  (01:25)
+athishsp pts/28       172.29.96.162    Thu Apr 18 18:57 - 22:57  (03:59)
+sandrasp pts/28       172.29.96.159    Thu Apr 18 18:27 - 18:31  (00:03)
+acesp24  pts/42       172.29.96.164    Thu Apr 18 17:47 - 17:47  (00:00)
+michelle pts/41       172.29.96.163    Thu Apr 18 17:44 - 18:32  (00:47)
+sunidhis pts/40       172.29.96.159    Thu Apr 18 17:41 - 17:48  (00:07)
+maysp24  pts/38       172.29.96.162    Thu Apr 18 17:41 - 19:52  (02:10)
+kevinsp2 pts/32       172.29.96.161    Thu Apr 18 17:40 - 19:49  (02:08)
+bennysp2 pts/29       172.29.96.160    Thu Apr 18 17:40 - 17:48  (00:07)
+justinsp pts/40       172.29.96.159    Thu Apr 18 17:25 - 17:39  (00:14)
+jimmysp2 pts/39       172.29.96.160    Thu Apr 18 17:15 - 19:18  (02:02)
+tylermsp pts/39       172.29.96.153    Thu Apr 18 17:04 - 17:05  (00:00)
+justinsp pts/38       172.29.96.159    Thu Apr 18 16:59 - 17:39  (00:40)
+jadonsp2 pts/37       172.29.96.158    Thu Apr 18 16:37 - 19:51  (03:14)
+rickysp2 pts/32       172.29.96.157    Thu Apr 18 16:34 - 17:35  (01:01)
+tylersp2 pts/29       172.29.96.154    Thu Apr 18 16:29 - 17:38  (01:08)
+tylermsp pts/28       172.29.96.153    Thu Apr 18 16:27 - 17:47  (01:19)
+ashishf2 pts/27       172.29.96.156    Thu Apr 18 14:26 - 19:56  (05:30)
+sandrasp pts/29       172.29.96.153    Thu Apr 18 02:57 - 05:49  (02:51)
+tylersp2 pts/28       172.29.96.154    Thu Apr 18 02:07 - 04:50  (02:42)
+tylersp2 pts/27       172.29.96.152    Thu Apr 18 01:19 - 03:29  (02:09)
+tylermsp pts/27       172.29.96.164    Thu Apr 18 00:23 - 00:34  (00:10)
+jadonsp2 pts/27       172.29.96.145    Wed Apr 17 23:49 - 00:13  (00:23)
+robertsp pts/28       172.29.96.143    Wed Apr 17 22:24 - 22:31  (00:06)
+billysp2 pts/32       172.29.96.156    Wed Apr 17 21:35 - 23:58  (02:23)
+jessesp2 pts/27       172.29.96.142    Wed Apr 17 20:59 - 23:05  (02:06)
+sandrasp pts/32       172.29.96.166    Wed Apr 17 20:51 - 21:06  (00:14)
+tylermsp pts/29       172.29.96.164    Wed Apr 17 20:39 - 00:23  (03:43)
+jessesp2 pts/27       172.29.96.142    Wed Apr 17 20:17 - 20:59  (00:42)
+sandrasp pts/28       172.29.96.150    Wed Apr 17 18:40 - 21:55  (03:14)
+michelle pts/29       172.29.96.154    Wed Apr 17 17:13 - 17:22  (00:08)
+albertsp pts/27       172.29.96.151    Wed Apr 17 17:05 - 19:35  (02:30)
+maysp24  pts/32       172.29.96.146    Wed Apr 17 17:02 - 17:04  (00:02)
+albertsp pts/29       172.29.96.151    Wed Apr 17 16:53 - 17:04  (00:11)
+maysp24  pts/27       172.29.96.146    Wed Apr 17 16:41 - 17:04  (00:22)
+alexsp24 pts/28       172.29.96.154    Wed Apr 17 15:43 - 18:38  (02:55)
+sandrasp pts/27       172.29.96.150    Wed Apr 17 15:37 - 16:12  (00:34)
+manassp2 pts/52       172.29.96.152    Wed Apr 17 14:35 - 15:46  (01:11)
+billysp2 pts/51                        Wed Apr 17 14:00 - 17:47  (03:47)
+billysp2 pts/51                        Wed Apr 17 13:58 - 13:59  (00:00)
+billysp2 pts/50       172.29.96.144    Wed Apr 17 13:18 - 19:02  (05:44)
+breannas pts/43       172.29.96.152    Wed Apr 17 12:34 - 15:13  (02:39)
+matthews pts/43       172.29.96.152    Wed Apr 17 11:39 - 12:31  (00:51)
+jyotika  pts/37       172.29.96.148    Wed Apr 17 11:07 - 14:43  (03:36)
+jyotika  pts/37       172.29.96.140    Wed Apr 17 05:11 - 07:35  (02:23)
+aayushsp pts/37       172.29.96.140    Wed Apr 17 03:44 - 04:49  (01:04)
+ericsp24 pts/52       172.29.96.130    Wed Apr 17 03:27 - 03:34  (00:07)
+ericsp24 pts/52       172.29.96.130    Wed Apr 17 03:07 - 03:18  (00:11)
+daosp24  pts/37       172.29.96.140    Wed Apr 17 03:04 - 03:29  (00:24)
+jyotika  pts/51       172.29.96.139    Wed Apr 17 02:49 - 07:06  (04:16)
+ashishf2 pts/51       172.29.96.139    Wed Apr 17 02:26 - 02:49  (00:23)
+jyotika  pts/51       172.29.96.139    Wed Apr 17 01:57 - 02:26  (00:28)
+breannas pts/50       172.29.96.142    Wed Apr 17 01:46 - 04:28  (02:41)
+xuebosp2 pts/43       172.29.96.141    Wed Apr 17 01:32 - 03:33  (02:01)
+daosp24  pts/37       172.29.96.140    Wed Apr 17 01:28 - 03:04  (01:35)
+daosp24  pts/37       172.29.96.140    Wed Apr 17 00:01 - 00:07  (00:05)
+daosp24  pts/37       172.29.96.140    Tue Apr 16 21:42 - 22:25  (00:43)
+aayushsp pts/43       172.29.96.143    Tue Apr 16 17:25 - 19:51  (02:25)
+ericsp24 pts/51       172.29.96.144    Tue Apr 16 16:57 - 17:03  (00:06)
+manassp2 pts/49       172.29.96.142    Tue Apr 16 16:24 - 17:08  (00:43)
+rickysp2 pts/44       172.29.96.139    Tue Apr 16 16:17 - 17:12  (00:54)
+nhatsp24 pts/37       172.29.96.141    Tue Apr 16 15:29 - 17:45  (02:16)
+sheelsp2 pts/1        172.29.96.139    Tue Apr 16 15:04 - 17:16  (02:12)
+daosp24  pts/1        172.29.96.141    Tue Apr 16 02:03 - 04:35  (02:31)
+daosp24  pts/1        172.29.96.141    Tue Apr 16 01:40 - 02:03  (00:22)
+albertsp pts/1        172.29.96.136    Mon Apr 15 20:46 - 22:47  (02:00)
+gursimra pts/1        172.29.96.138    Mon Apr 15 13:36 - 14:27  (00:50)
+gradysp2 pts/1        172.29.96.133    Mon Apr 15 09:46 - 12:01  (02:14)
+jyotika  pts/44       172.29.96.129    Mon Apr 15 03:37 - 05:38  (02:00)
+jyotika  pts/1        172.29.96.125    Mon Apr 15 02:28 - 04:56  (02:28)
+ashishf2 pts/37       172.29.96.126    Mon Apr 15 02:26 - 04:29  (02:03)
+ashishf2 pts/1        172.29.96.125    Mon Apr 15 02:16 - 02:27  (00:11)
+jyotika  pts/1        172.29.96.125    Mon Apr 15 02:15 - 02:16  (00:00)
+gradysp2 pts/1        172.29.96.125    Sun Apr 14 09:02 - 11:05  (02:02)
+robertsp pts/1        172.29.96.117    Sat Apr 13 12:31 - 15:20  (02:49)
+ashishf2 pts/1        172.29.96.112    Sat Apr 13 02:44 - 07:27  (04:43)
+pratiksp pts/37       172.29.96.114    Sat Apr 13 01:50 - 04:11  (02:20)
+zakisp24 pts/37                        Sat Apr 13 01:41 - 01:43  (00:02)
+zakisp24 pts/37                        Sat Apr 13 01:39 - 01:40  (00:00)
+zakisp24 pts/37                        Sat Apr 13 01:37 - 01:38  (00:00)
+zakisp24 pts/1        172.29.96.113    Sat Apr 13 01:37 - 01:55  (00:18)
+zakisp24 pts/37                        Sat Apr 13 01:32 - 01:36  (00:03)
+zakisp24 pts/1        172.29.96.113    Sat Apr 13 01:30 - 01:37  (00:06)
+zakisp24 pts/1        172.29.96.113    Sat Apr 13 01:05 - 01:30  (00:25)
+rickysp2 pts/1        172.29.96.111    Sat Apr 13 00:23 - 00:28  (00:04)
+aarushis pts/37       172.29.96.113    Fri Apr 12 23:46 - 23:46  (00:00)
+rickysp2 pts/1        172.29.96.111    Fri Apr 12 23:14 - 00:21  (01:06)
+aarushis pts/49       172.29.96.113    Fri Apr 12 21:29 - 23:45  (02:16)
+maysp24  pts/44       172.29.96.114    Fri Apr 12 20:20 - 23:13  (02:52)
+tylermsp pts/37       172.29.96.113    Fri Apr 12 20:14 - 22:21  (02:07)
+tylermsp pts/1        172.29.96.112    Fri Apr 12 19:53 - 21:57  (02:03)
+megansp2 pts/1        172.29.96.112    Fri Apr 12 19:34 - 19:41  (00:06)
+rickysp2 pts/37       172.29.96.113    Fri Apr 12 17:31 - 19:35  (02:04)
+rickysp2 pts/1        172.29.96.109    Fri Apr 12 17:22 - 19:31  (02:08)
+ericsp24 pts/1        172.29.96.108    Fri Apr 12 06:37 - 07:35  (00:57)
+sheelsp2 pts/1        172.29.96.111    Fri Apr 12 02:26 - 02:30  (00:04)
+sheelsp2 pts/1        172.29.96.111    Fri Apr 12 02:25 - 02:25  (00:00)
+sheelsp2 pts/1        172.29.96.111    Fri Apr 12 02:08 - 02:24  (00:15)
+diyasp24 pts/51       172.29.96.114    Thu Apr 11 16:03 - 18:06  (02:03)
+daosp24  pts/50       172.29.96.110    Thu Apr 11 15:48 - 16:11  (00:22)
+sunidhis pts/49       172.29.96.113    Thu Apr 11 15:46 - 17:25  (01:38)
+sheelsp2 pts/49       172.29.96.111    Thu Apr 11 14:37 - 15:31  (00:54)
+sheelsp2 pts/49       172.29.96.111    Thu Apr 11 14:32 - 14:35  (00:03)
+nhatsp24 pts/44       172.29.96.99     Thu Apr 11 14:14 - 16:10  (01:55)
+nhatsp24 pts/44       172.29.96.99     Thu Apr 11 14:03 - 14:14  (00:11)
+nhatsp24 pts/43       172.29.96.99     Thu Apr 11 13:46 - 14:15  (00:28)
+manassp2 pts/1        172.29.96.107    Thu Apr 11 13:11 - 16:11  (02:59)
+davidsp2 pts/37       172.29.96.109    Thu Apr 11 12:10 - 16:24  (04:13)
+manassp2 pts/1        172.29.96.107    Thu Apr 11 11:52 - 12:43  (00:51)
+jadonsp2 pts/28       172.29.96.99     Thu Apr 11 04:26 - 04:32  (00:06)
+jadonsp2 pts/28       172.29.96.99     Thu Apr 11 04:24 - 04:25  (00:01)
+jadonsp2 pts/27       172.29.96.99     Thu Apr 11 03:24 - 04:32  (01:08)
+farihasp pts/45                        Thu Apr 11 02:35 - 02:35  (00:00)
+farihasp pts/45                        Thu Apr 11 02:33 - 02:34  (00:01)
+kevinsp2 pts/39                        Thu Apr 11 02:27 - 02:56  (00:28)
+kevinsp2 pts/37       172.29.96.103    Thu Apr 11 02:26 - 04:58  (02:31)
+aarushis pts/27       172.29.96.98     Thu Apr 11 02:22 - 03:12  (00:49)
+farihasp pts/48                        Thu Apr 11 02:09 - 02:10  (00:00)
+robertos pts/28                        Thu Apr 11 02:09 - 02:56  (00:46)
+madhavsp pts/27       172.29.96.116    Thu Apr 11 02:04 - 02:11  (00:07)
+madhavsp pts/27       172.29.96.116    Thu Apr 11 01:58 - 02:04  (00:05)
+robertos pts/50       172.29.96.114    Thu Apr 11 01:56 - 05:15  (03:19)
+hardiksp pts/48                        Thu Apr 11 01:55 - 02:00  (00:04)
+madhavsp pts/27       172.29.96.116    Thu Apr 11 01:54 - 01:58  (00:04)
+hardiksp pts/48                        Thu Apr 11 01:53 - 01:55  (00:01)
+tanishas pts/45                        Thu Apr 11 01:52 - 02:19  (00:26)
+hardiksp pts/45                        Thu Apr 11 01:49 - 01:49  (00:00)
+tanishas pts/48                        Thu Apr 11 01:48 - 01:51  (00:02)
+hardiksp pts/45                        Thu Apr 11 01:48 - 01:48  (00:00)
+tanishas pts/44       172.29.96.102    Thu Apr 11 01:46 - 02:54  (01:08)
+hardiksp pts/42                        Thu Apr 11 01:45 - 17:47 (7+16:02)
+hardiksp pts/1        172.29.96.99     Thu Apr 11 01:44 - 04:11  (02:26)
+hardiksp pts/1                         Thu Apr 11 01:43 - 01:44  (00:01)
+farihasp pts/43       172.29.96.101    Thu Apr 11 01:41 - 02:39  (00:58)
+hardiksp pts/42       172.29.96.99     Thu Apr 11 01:37 - 01:44  (00:07)
+aarushis pts/39                        Thu Apr 11 01:34 - 02:27  (00:53)
+madhavsp pts/27       172.29.96.116    Thu Apr 11 01:34 - 01:54  (00:19)
+aarushis pts/37       172.29.96.98     Thu Apr 11 01:31 - 02:22  (00:50)
+madhavsp pts/27       172.29.96.116    Thu Apr 11 01:30 - 01:33  (00:03)
+madhavsp pts/37       172.29.96.116    Thu Apr 11 01:24 - 01:30  (00:06)
+megansp2 pts/55                        Thu Apr 11 01:15 - 01:33  (00:17)
+yelinsp2 pts/56                        Thu Apr 11 01:10 - 01:26  (00:15)
+megansp2 pts/55                        Thu Apr 11 01:09 - 01:10  (00:00)
+yelinsp2 pts/44       172.29.96.102    Thu Apr 11 01:08 - 01:32  (00:23)
+megansp2 pts/43       172.29.96.101    Thu Apr 11 01:05 - 01:38  (00:32)
+pratiksp pts/28                        Thu Apr 11 00:54 - 02:09  (01:14)
+yelinsp2 pts/28       172.29.96.111    Thu Apr 11 00:44 - 00:47  (00:03)
+manassp2 pts/27       172.29.96.98     Thu Apr 11 00:43 - 01:27  (00:44)
+yelinsp2 pts/44       172.29.96.111    Thu Apr 11 00:42 - 00:44  (00:02)
+davidsp2 pts/48                        Thu Apr 11 00:35 - 01:40  (01:04)
+madhavsp pts/45                        Thu Apr 11 00:33 - 01:48  (01:14)
+pratiksp pts/52       172.29.96.117    Thu Apr 11 00:25 - 02:52  (02:27)
+albertsp pts/51                        Thu Apr 11 00:24 - 01:17  (00:53)
+madhavsp pts/50       172.29.96.116    Thu Apr 11 00:12 - 01:24  (01:11)
+albertsp pts/49       172.29.96.115    Thu Apr 11 00:10 - 04:43  (04:32)
+yelinsp2 pts/48                        Thu Apr 11 00:02 - 00:35  (00:32)
+davidsp2 pts/47       172.29.96.114    Thu Apr 11 00:01 - 03:48  (03:47)
+yelinsp2 pts/45       172.29.96.111    Wed Apr 10 23:56 - 00:30  (00:33)
+nicolesp pts/43                        Wed Apr 10 23:52 - 00:51  (00:59)
+nicolesp pts/43                        Wed Apr 10 23:44 - 23:52  (00:07)
+nicolesp pts/37       172.29.96.103    Wed Apr 10 23:42 - 01:17  (01:35)
+akashsp2 pts/1        172.29.96.101    Wed Apr 10 23:40 - 01:42  (02:02)
+jimmysp2 pts/44       172.29.96.109    Wed Apr 10 23:34 - 00:37  (01:03)
+sangsp24 pts/39       172.29.96.98     Wed Apr 10 23:28 - 01:33  (02:04)
+akashsp2 pts/42       172.29.96.99     Wed Apr 10 23:28 - 01:32  (02:03)
+sangsp24 pts/39       172.29.96.98     Wed Apr 10 23:24 - 23:28  (00:03)
+brandons pts/44                        Wed Apr 10 22:54 - 23:12  (00:18)
+brandons pts/43       172.29.96.102    Wed Apr 10 22:48 - 23:42  (00:54)
+sandrasp pts/42                        Wed Apr 10 22:45 - 23:06  (00:20)
+sandrasp pts/1        172.29.96.101    Wed Apr 10 22:44 - 23:38  (00:54)
+edisonsp pts/42                        Wed Apr 10 22:35 - 22:37  (00:02)
+edisonsp pts/42                        Wed Apr 10 22:34 - 22:34  (00:00)
+edisonsp pts/28       172.29.96.99     Wed Apr 10 22:24 - 00:43  (02:19)
+manassp2 pts/37       172.29.96.111    Wed Apr 10 21:22 - 23:35  (02:13)
+akashsp2 pts/28                        Wed Apr 10 21:21 - 22:22  (01:01)
+akashsp2 pts/37                        Wed Apr 10 21:11 - 21:16  (00:04)
+akashsp2 pts/27       172.29.96.117    Wed Apr 10 21:07 - 00:42  (03:35)
+madhavsp pts/1        172.29.96.108    Wed Apr 10 20:46 - 22:35  (01:48)
+madhavsp pts/27                        Wed Apr 10 20:42 - 21:07  (00:25)
+madhavsp pts/1        172.29.96.108    Wed Apr 10 20:28 - 20:46  (00:18)
+madhavsp pts/37                        Wed Apr 10 20:13 - 21:11  (00:58)
+madhavsp pts/1        172.29.96.108    Wed Apr 10 19:36 - 20:27  (00:51)
+madhavsp pts/1        172.29.96.108    Wed Apr 10 19:28 - 19:35  (00:07)
+jimmysp2 pts/40                        Wed Apr 10 18:55 - 18:56  (00:00)
+jimmysp2 pts/40                        Wed Apr 10 18:54 - 18:55  (00:01)
+jimmysp2 pts/39       172.29.96.109    Wed Apr 10 18:53 - 22:59  (04:05)
+nhatsp24 pts/37       172.29.96.102    Wed Apr 10 18:51 - 19:44  (00:52)
+diyasp24 pts/1                         Wed Apr 10 18:46 - 19:16  (00:30)
+megansp2 pts/39                        Wed Apr 10 18:19 - 18:19  (00:00)
+megansp2 pts/39                        Wed Apr 10 18:18 - 18:18  (00:00)
+diyasp24 pts/37                        Wed Apr 10 18:16 - 18:23  (00:06)
+tylersp2 pts/28       172.29.96.114    Wed Apr 10 18:12 - 21:15  (03:03)
+megansp2 pts/1        172.29.96.112    Wed Apr 10 18:09 - 18:22  (00:12)
+diyasp24 pts/27       172.29.96.110    Wed Apr 10 17:51 - 20:30  (02:39)
+albertsp pts/1                         Wed Apr 10 17:45 - 18:04  (00:19)
+khushisp pts/28                        Wed Apr 10 17:32 - 18:04  (00:31)
+khushisp pts/48       172.29.96.108    Wed Apr 10 17:28 - 18:43  (01:14)
+albertsp pts/49                        Wed Apr 10 17:26 - 17:38  (00:12)
+khushisp pts/50                        Wed Apr 10 17:25 - 00:12  (06:47)
+albertsp pts/49                        Wed Apr 10 17:24 - 17:25  (00:01)
+khushisp pts/48       172.29.96.108    Wed Apr 10 17:22 - 17:27  (00:05)
+albertsp pts/44       172.29.96.107    Wed Apr 10 17:15 - 20:31  (03:16)
+tanishas pts/47                        Wed Apr 10 16:52 - 17:39  (00:46)
+manassp2 pts/1        172.29.96.112    Wed Apr 10 16:51 - 17:35  (00:44)
+tanishas pts/45       172.29.96.104    Wed Apr 10 16:38 - 17:39  (01:01)
+atishays pts/1                         Wed Apr 10 16:33 - 16:45  (00:11)
+nhatsp24 pts/44                        Wed Apr 10 16:07 - 17:09  (01:01)
+nhatsp24 pts/43       172.29.96.102    Wed Apr 10 16:07 - 18:51  (02:44)
+rickysp2 pts/42       172.29.96.103    Wed Apr 10 16:06 - 18:02  (01:55)
+atishays pts/41       172.29.96.97     Wed Apr 10 15:54 - 20:32  (04:38)
+diyasp24 pts/40       172.29.96.95     Wed Apr 10 15:37 - 17:55  (02:17)
+jessesp2 pts/42                        Wed Apr 10 15:16 - 15:26  (00:09)
+tylersp2 pts/41                        Wed Apr 10 15:13 - 15:26  (00:12)
+tylersp2 pts/41                        Wed Apr 10 15:13 - 15:13  (00:00)
+sandrasp pts/40       172.29.96.95     Wed Apr 10 15:12 - 15:30  (00:17)
+tylersp2 pts/40                        Wed Apr 10 15:11 - 15:12  (00:00)
+jessesp2 pts/39       172.29.96.112    Wed Apr 10 15:07 - 18:15  (03:07)
+tylersp2 pts/28       172.29.96.108    Wed Apr 10 15:06 - 17:29  (02:22)
+nhatsp24 pts/27                        Wed Apr 10 14:19 - 17:51  (03:32)
+nhatsp24 pts/37       172.29.96.106    Wed Apr 10 13:55 - 16:47  (02:52)
+megansp2 pts/28                        Wed Apr 10 13:27 - 14:04  (00:37)
+megansp2 pts/27       172.29.96.108    Wed Apr 10 13:26 - 14:07  (00:40)
+manassp2 pts/1        172.29.96.107    Wed Apr 10 12:50 - 16:20  (03:30)
+gradysp2 pts/4        172.29.96.106    Wed Apr 10 11:38 - 12:09  (00:30)
+gradysp2 pts/1        172.29.96.106    Wed Apr 10 07:57 - 12:32  (04:34)
+brandons pts/4                         Wed Apr 10 05:17 - 05:19  (00:02)
+brandons pts/28                        Wed Apr 10 05:13 - 05:16  (00:03)
+connersp pts/4        172.29.96.103    Wed Apr 10 04:46 - 05:14  (00:28)
+brandons pts/42                        Wed Apr 10 03:47 - 05:10  (01:22)
+brandons pts/41       172.29.96.98     Wed Apr 10 03:47 - 05:19  (01:32)
+sandrasp pts/39                        Wed Apr 10 03:46 - 04:13  (00:27)
+sandrasp pts/28       172.29.96.102    Wed Apr 10 03:43 - 04:30  (00:46)
+sandrasp pts/1                         Wed Apr 10 03:20 - 07:57  (04:36)
+amansp24 pts/27       172.29.96.100    Wed Apr 10 03:14 - 07:24  (04:10)
+acesp24  pts/4                         Wed Apr 10 03:06 - 04:06  (01:00)
+acesp24  pts/4                         Wed Apr 10 02:49 - 02:53  (00:04)
+acesp24  pts/40       172.29.96.97     Wed Apr 10 02:45 - 04:15  (01:30)
+sandrasp pts/39                        Wed Apr 10 02:40 - 02:49  (00:09)
+maysp24  pts/4                         Wed Apr 10 02:36 - 02:47  (00:11)
+sandrasp pts/39                        Wed Apr 10 02:29 - 02:35  (00:05)
+sandrasp pts/37       172.29.96.102    Wed Apr 10 02:08 - 05:46  (03:38)
+maysp24  pts/10       172.29.96.84     Wed Apr 10 01:53 - 05:14  (03:20)
+sangsp24 pts/27                        Wed Apr 10 01:45 - 02:48  (01:02)
+sangsp24 pts/37                        Wed Apr 10 01:37 - 01:38  (00:00)
+sangsp24 pts/28       172.29.96.101    Wed Apr 10 01:36 - 03:07  (01:31)
+manassp2 pts/17       172.29.96.97     Wed Apr 10 00:59 - 00:59  (00:00)
+madhavsp pts/4        172.29.96.100    Wed Apr 10 00:47 - 02:30  (01:42)
+manassp2 pts/10       172.29.96.97     Wed Apr 10 00:41 - 01:49  (01:07)
+gursimra pts/1        172.29.96.84     Wed Apr 10 00:21 - 03:19  (02:57)
+gursimra pts/32       172.29.96.84     Tue Apr  9 23:34 - 00:21  (00:47)
+ashish   pts/28       172.29.96.101    Tue Apr  9 23:03 - 01:27  (02:24)
+manassp2 pts/27       172.29.96.100    Tue Apr  9 22:59 - 01:43  (02:44)
+tylersp2 pts/10       172.29.96.22     Tue Apr  9 22:35 - 00:41  (02:05)
+tylersp2 pts/10                        Tue Apr  9 22:22 - 22:22  (00:00)
+tylersp2 pts/10                        Tue Apr  9 22:21 - 22:22  (00:00)
+vaikunta pts/1        172.29.96.98     Tue Apr  9 21:56 - 00:02  (02:06)
+tylersp2 pts/1                         Tue Apr  9 21:47 - 21:50  (00:03)
+tylersp2 pts/27       172.29.96.22     Tue Apr  9 21:46 - 22:35  (00:48)
+georgesp pts/17       172.29.96.84     Tue Apr  9 21:32 - 00:24  (02:52)
+georgesp pts/10                        Tue Apr  9 21:26 - 22:09  (00:42)
+georgesp pts/4        172.29.96.84     Tue Apr  9 21:26 - 00:46  (03:20)
+jessesp2 pts/32                        Tue Apr  9 20:35 - 20:44  (00:08)
+jessesp2 pts/32                        Tue Apr  9 20:33 - 20:33  (00:00)
+jessesp2 pts/28       172.29.96.100    Tue Apr  9 20:04 - 22:57  (02:52)
+vaikunta pts/27       172.29.96.98     Tue Apr  9 20:03 - 21:20  (01:17)
+jadonsp2 pts/1        172.29.96.98     Tue Apr  9 19:25 - 21:46  (02:21)
+jadonsp2 pts/1        172.29.96.98     Tue Apr  9 19:21 - 19:25  (00:03)
+georgesp pts/29                        Tue Apr  9 18:36 - 16:53 (7+22:17)
+georgesp pts/4        172.29.96.104    Tue Apr  9 18:32 - 21:14  (02:41)
+athishsp pts/17       172.29.96.118    Tue Apr  9 18:31 - 21:08  (02:37)
+georgesp pts/10       172.29.96.104    Tue Apr  9 18:29 - 20:46  (02:17)
+georgesp pts/4        172.29.96.104    Tue Apr  9 18:29 - 18:32  (00:03)
+georgesp pts/17                        Tue Apr  9 18:08 - 18:12  (00:04)
+georgesp pts/17                        Tue Apr  9 18:07 - 18:08  (00:01)
+georgesp pts/17                        Tue Apr  9 17:49 - 18:01  (00:11)
+georgesp pts/10       172.29.96.104    Tue Apr  9 17:49 - 18:28  (00:39)
+athishsp pts/47       172.29.96.118    Tue Apr  9 16:35 - 19:50  (03:14)
+kevinsp2 pts/45       172.29.96.117    Tue Apr  9 16:35 - 18:40  (02:05)
+aarushis pts/44       172.29.96.116    Tue Apr  9 16:35 - 17:39  (01:03)
+jadonsp2 pts/43       172.29.96.115    Tue Apr  9 16:34 - 17:36  (01:01)
+manassp2 pts/42       172.29.96.113    Tue Apr  9 16:34 - 19:51  (03:17)
+matthews pts/41       172.29.96.114    Tue Apr  9 16:34 - 19:40  (03:06)
+rickysp2 pts/40       172.29.96.112    Tue Apr  9 16:34 - 17:31  (00:57)
+sangsp24 pts/39       172.29.96.111    Tue Apr  9 16:33 - 17:44  (01:10)
+georgesp pts/38       172.29.96.109    Tue Apr  9 16:33 - 19:46  (03:12)
+tylersp2 pts/37       172.29.96.107    Tue Apr  9 16:32 - 17:32  (01:00)
+tylersp2 pts/37       172.29.96.107    Tue Apr  9 16:31 - 16:32  (00:00)
+bennysp2 pts/32       172.29.96.102    Tue Apr  9 16:31 - 17:45  (01:14)
+madhavsp pts/29       172.29.96.101    Tue Apr  9 16:30 - 17:44  (01:13)
+ashish   pts/28       172.29.96.105    Tue Apr  9 16:29 - 19:46  (03:16)
+tylermsp pts/27       172.29.96.106    Tue Apr  9 16:21 - 19:46  (03:24)
+athishsp pts/4        172.29.96.103    Tue Apr  9 16:18 - 18:28  (02:09)
+ashish   pts/17       172.29.96.105    Tue Apr  9 14:59 - 17:29  (02:29)
+ericsp24 pts/1        172.29.96.97     Tue Apr  9 14:52 - 19:06  (04:13)
+farihasp pts/27                        Tue Apr  9 14:12 - 15:19  (01:07)
+farihasp pts/27                        Tue Apr  9 14:11 - 14:12  (00:00)
+farihasp pts/27                        Tue Apr  9 14:09 - 14:11  (00:01)
+farihasp pts/4        172.29.96.101    Tue Apr  9 14:08 - 15:27  (01:18)
+farihasp pts/4                         Tue Apr  9 14:08 - 14:08  (00:00)
+farihasp pts/28                        Tue Apr  9 13:52 - 14:07  (00:15)
+farihasp pts/27       172.29.96.101    Tue Apr  9 13:51 - 14:08  (00:17)
+benjamin pts/17                        Tue Apr  9 13:51 - 14:30  (00:38)
+benjamin pts/10       172.29.96.100    Tue Apr  9 13:50 - 16:51  (03:01)
+matthews pts/4                         Tue Apr  9 13:40 - 13:54  (00:13)
+matthews pts/1        172.29.96.97     Tue Apr  9 13:39 - 14:42  (01:03)
+gradysp2 pts/1        172.29.96.100    Tue Apr  9 03:21 - 03:24  (00:02)
+gradysp2 pts/4        172.29.96.100    Tue Apr  9 03:14 - 03:21  (00:07)
+gradysp2 pts/4                         Tue Apr  9 02:51 - 03:09  (00:17)
+gradysp2 pts/4                         Tue Apr  9 02:41 - 02:46  (00:05)
+gradysp2 pts/4                         Tue Apr  9 02:37 - 02:38  (00:00)
+gradysp2 pts/1        172.29.96.100    Tue Apr  9 02:34 - 03:20  (00:45)
+gradysp2 pts/1                         Tue Apr  9 02:29 - 02:30  (00:01)
+gradysp2 pts/28                        Tue Apr  9 02:26 - 02:27  (00:00)
+gradysp2 pts/28                        Tue Apr  9 02:25 - 02:25  (00:00)
+gradysp2 pts/39                        Tue Apr  9 02:23 - 02:24  (00:00)
+gradysp2 pts/29       172.29.96.100    Tue Apr  9 02:23 - 02:34  (00:10)
+gradysp2 pts/28                        Tue Apr  9 02:22 - 02:24  (00:02)
+gradysp2 pts/28                        Tue Apr  9 02:19 - 02:19  (00:00)
+gradysp2 pts/28                        Tue Apr  9 02:18 - 02:18  (00:00)
+gradysp2 pts/4                         Tue Apr  9 02:17 - 02:37  (00:20)
+gradysp2 pts/28                        Tue Apr  9 02:14 - 02:14  (00:00)
+gavinsp2 pts/4                         Tue Apr  9 02:06 - 02:17  (00:10)
+ronsp24  pts/28       172.29.96.111    Tue Apr  9 01:59 - 02:03  (00:03)
+ronsp24  pts/28                        Tue Apr  9 01:57 - 01:58  (00:00)
+ronsp24  pts/32       172.29.96.111    Tue Apr  9 01:53 - 03:07  (01:13)
+xiaokesp pts/29       172.29.96.25     Tue Apr  9 01:45 - 02:03  (00:18)
+gavinsp2 pts/42       172.29.96.102    Tue Apr  9 01:43 - 02:34  (00:51)
+gradysp2 pts/40                        Tue Apr  9 01:39 - 01:59  (00:20)
+gradysp2 pts/37       172.29.96.100    Tue Apr  9 01:37 - 02:34  (00:57)
+sheelsp2 pts/39                        Tue Apr  9 01:00 - 02:23  (01:23)
+sheelsp2 pts/32       172.29.96.105    Tue Apr  9 00:59 - 01:45  (00:45)
+xiaokesp pts/29       172.29.96.25     Tue Apr  9 00:57 - 01:44  (00:46)
+sheelsp2 pts/32       172.29.96.105    Tue Apr  9 00:57 - 00:59  (00:02)
+dylansp2 pts/10       172.29.96.100    Tue Apr  9 00:45 - 03:12  (02:27)
+xiaokesp pts/29       172.29.96.25     Tue Apr  9 00:34 - 00:57  (00:22)
+ajaysp24 pts/49       172.29.96.26     Tue Apr  9 00:30 - 01:18  (00:48)
+justinsp pts/43                        Tue Apr  9 00:30 - 00:37  (00:07)
+ronsp24  pts/48       172.29.96.23     Tue Apr  9 00:27 - 02:51  (02:23)
+kobesp24 pts/38       172.29.96.108    Tue Apr  9 00:12 - 02:42  (02:29)
+ayesp24  pts/47                        Tue Apr  9 00:10 - 00:49  (00:38)
+ayesp24  pts/45       172.29.96.111    Tue Apr  9 00:08 - 00:50  (00:41)
+kobesp24 pts/38       172.29.96.108    Tue Apr  9 00:07 - 00:12  (00:04)
+davidsp2 pts/44       172.29.96.109    Tue Apr  9 00:03 - 02:06  (02:02)
+sunidhis pts/43       172.29.96.100    Tue Apr  9 00:02 - 00:30  (00:27)
+kobesp24 pts/38       172.29.96.108    Mon Apr  8 23:55 - 00:07  (00:12)
+dylansp2 pts/41       172.29.96.107    Mon Apr  8 23:52 - 01:55  (02:02)
+justinsp pts/40       172.29.96.24     Mon Apr  8 23:50 - 01:20  (01:29)
+xiaokesp pts/32                        Mon Apr  8 23:46 - 00:57  (01:11)
+xiaokesp pts/29       172.29.96.25     Mon Apr  8 23:45 - 00:34  (00:49)
+gursimra pts/39                        Mon Apr  8 23:43 - 00:43  (00:59)
+sunidhis pts/38                        Mon Apr  8 23:43 - 23:54  (00:11)
+gursimra pts/27       172.29.96.18     Mon Apr  8 23:43 - 02:55  (03:12)
+sunidhis pts/28       172.29.96.100    Mon Apr  8 23:37 - 01:57  (02:19)
+athishsp pts/27                        Mon Apr  8 23:35 - 23:40  (00:04)
+xiaokesp pts/32                        Mon Apr  8 23:32 - 23:46  (00:13)
+xiaokesp pts/29       172.29.96.25     Mon Apr  8 23:31 - 23:45  (00:13)
+athishsp pts/29                        Mon Apr  8 23:23 - 23:24  (00:00)
+matthews pts/28                        Mon Apr  8 23:19 - 23:33  (00:13)
+matthews pts/27       172.29.96.24     Mon Apr  8 23:16 - 23:33  (00:16)
+athishsp pts/27                        Mon Apr  8 23:15 - 23:15  (00:00)
+athishsp pts/27                        Mon Apr  8 23:08 - 23:11  (00:03)
+athishsp pts/17       172.29.96.20     Mon Apr  8 22:43 - 04:34  (05:50)
+gradysp2 pts/10       172.29.96.18     Mon Apr  8 22:36 - 00:39  (02:02)
+ronsp24  pts/4        172.29.96.23     Mon Apr  8 22:22 - 02:05  (03:42)
+tylermsp pts/42       172.29.96.22     Mon Apr  8 22:18 - 00:39  (02:20)
+ajaysp24 pts/28                        Mon Apr  8 22:17 - 22:53  (00:36)
+ajaysp24 pts/37       172.29.96.107    Mon Apr  8 21:55 - 01:17  (03:22)
+tylermsp pts/42                        Mon Apr  8 21:47 - 21:52  (00:05)
+nicholso pts/29                        Mon Apr  8 21:43 - 23:18  (01:34)
+connersp pts/42                        Mon Apr  8 21:41 - 21:41  (00:00)
+sunidhis pts/38       172.29.96.21     Mon Apr  8 21:39 - 22:49  (01:10)
+nicholso pts/29                        Mon Apr  8 21:35 - 21:43  (00:07)
+nicholso pts/41       172.29.96.100    Mon Apr  8 21:29 - 23:23  (01:53)
+sunidhis pts/40       172.29.96.21     Mon Apr  8 21:13 - 23:23  (02:09)
+ronsp24  pts/39       172.29.96.15     Mon Apr  8 21:07 - 23:11  (02:04)
+tylermsp pts/38                        Mon Apr  8 20:57 - 21:31  (00:33)
+jonathan pts/37       172.29.96.107    Mon Apr  8 20:53 - 21:52  (00:59)
+bennysp2 pts/29                        Mon Apr  8 20:48 - 21:31  (00:43)
+vaikunta pts/27                        Mon Apr  8 20:44 - 22:58  (02:13)
+bennysp2 pts/10       172.29.96.20     Mon Apr  8 20:44 - 22:35  (01:51)
+tylermsp pts/28       172.29.96.19     Mon Apr  8 20:41 - 22:06  (01:24)
+vaikunta pts/10                        Mon Apr  8 20:41 - 20:43  (00:01)
+vaikunta pts/1        172.29.96.16     Mon Apr  8 20:40 - 02:28  (05:48)
+chih-kuo pts/27                        Mon Apr  8 20:24 - 20:43  (00:19)
+chih-kuo pts/32       172.29.96.107    Mon Apr  8 20:20 - 22:47  (02:26)
+sheelsp2 pts/29                        Mon Apr  8 20:14 - 20:48  (00:34)
+daosp24  pts/28       172.29.96.17     Mon Apr  8 20:13 - 20:33  (00:20)
+sheelsp2 pts/10       172.29.96.105    Mon Apr  8 20:12 - 20:39  (00:26)
+nicholso pts/27                        Mon Apr  8 20:04 - 20:21  (00:16)
+connersp pts/17       172.29.96.18     Mon Apr  8 20:04 - 22:31  (02:27)
+nicholso pts/17                        Mon Apr  8 20:03 - 20:04  (00:00)
+nicholso pts/1        172.29.96.16     Mon Apr  8 20:03 - 20:26  (00:23)
+jaydevsp pts/10                        Mon Apr  8 19:52 - 20:11  (00:18)
+jaydevsp pts/4        172.29.96.15     Mon Apr  8 19:52 - 22:18  (02:26)
+fnusp24  pts/1        172.29.96.97     Mon Apr  8 17:42 - 20:02  (02:20)
+fnusp24  pts/1        172.29.96.97     Mon Apr  8 17:41 - 17:42  (00:00)
+ajaysp24 pts/10       172.29.96.114    Mon Apr  8 16:38 - 16:41  (00:03)
+fnusp24  pts/32                        Mon Apr  8 16:07 - 17:20  (01:12)
+fnusp24  pts/27       172.29.96.97     Mon Apr  8 16:05 - 17:41  (01:35)
+jonathan pts/17       172.29.96.114    Mon Apr  8 15:57 - 16:28  (00:31)
+piercesp pts/29                        Mon Apr  8 15:25 - 16:22  (00:57)
+swansp24 pts/28                        Mon Apr  8 15:24 - 16:17  (00:52)
+swansp24 pts/10       172.29.96.96     Mon Apr  8 15:20 - 16:37  (01:17)
+fnusp24  pts/17                        Mon Apr  8 15:20 - 15:28  (00:08)
+fnusp24  pts/27       172.29.96.97     Mon Apr  8 15:19 - 15:28  (00:09)
+swansp24 pts/10       172.29.96.96     Mon Apr  8 15:10 - 15:20  (00:10)
+swansp24 pts/10       172.29.96.96     Mon Apr  8 15:09 - 15:10  (00:00)
+piercesp pts/4        172.29.96.101    Mon Apr  8 15:08 - 18:27  (03:19)
+jonathan pts/1        172.29.96.114    Mon Apr  8 14:55 - 17:08  (02:12)
+michelle pts/39       172.29.96.110    Mon Apr  8 14:21 - 15:00  (00:38)
+alexsp24 pts/38                        Mon Apr  8 13:54 - 14:33  (00:38)
+alexsp24 pts/38                        Mon Apr  8 13:47 - 13:54  (00:06)
+jyotika  pts/37       172.29.96.95     Mon Apr  8 13:42 - 14:52  (01:10)
+alexsp24 pts/32       172.29.96.114    Mon Apr  8 13:38 - 14:40  (01:01)
+breannas pts/1        172.29.96.110    Mon Apr  8 12:49 - 14:54  (02:05)
+alexsp24 pts/17       172.29.96.114    Mon Apr  8 12:39 - 15:19  (02:40)
+jyotika  pts/32       172.29.96.95     Mon Apr  8 12:36 - 13:35  (00:59)
+jaydevsp pts/29       172.29.96.113    Mon Apr  8 12:33 - 14:42  (02:09)
+michelle pts/28       172.29.96.112    Mon Apr  8 12:23 - 14:54  (02:31)
+gursimra pts/27       172.29.96.111    Mon Apr  8 12:14 - 14:42  (02:28)
+breannas pts/17       172.29.96.110    Mon Apr  8 12:14 - 12:38  (00:24)
+athishsp pts/10       172.29.96.105    Mon Apr  8 12:06 - 14:41  (02:35)
+ericsp24 pts/8        172.29.96.106    Mon Apr  8 12:03 - 13:07  (01:04)
+connersp pts/4        172.29.96.107    Mon Apr  8 12:03 - 14:54  (02:51)
+jyotika  pts/1        172.29.96.95     Mon Apr  8 10:31 - 12:47  (02:16)
+jyotika  pts/4        172.29.96.96     Mon Apr  8 03:24 - 06:48  (03:24)
+breannas pts/10                        Mon Apr  8 02:18 - 12:06  (09:48)
+aayushsp pts/1                         Mon Apr  8 02:11 - 03:38  (01:26)
+breannas pts/1                         Mon Apr  8 02:11 - 02:11  (00:00)
+breannas pts/28       172.29.96.96     Mon Apr  8 02:10 - 04:19  (02:09)
+aayushsp pts/27       172.29.96.95     Mon Apr  8 02:03 - 05:43  (03:40)
+zakisp24 pts/28                        Mon Apr  8 01:35 - 02:05  (00:30)
+zakisp24 pts/8        172.29.96.92     Mon Apr  8 01:28 - 02:19  (00:50)
+xuebosp2 pts/27                        Mon Apr  8 01:03 - 01:54  (00:50)
+xuebosp2 pts/17       172.29.96.99     Mon Apr  8 01:03 - 02:12  (01:09)
+tylermsp pts/8                         Mon Apr  8 00:46 - 01:08  (00:22)
+tylermsp pts/8                         Mon Apr  8 00:44 - 00:45  (00:00)
+tylermsp pts/4        172.29.96.97     Mon Apr  8 00:44 - 03:10  (02:26)
+breannas pts/1                         Mon Apr  8 00:02 - 02:11  (02:08)
+breannas pts/1                         Sun Apr  7 23:57 - 00:02  (00:04)
+breannas pts/10       172.29.96.95     Sun Apr  7 23:13 - 02:10  (02:57)
+breannas pts/10       172.29.96.95     Sun Apr  7 23:06 - 23:12  (00:06)
+swansp24 pts/8        172.29.96.96     Sun Apr  7 22:15 - 00:21  (02:06)
+breannas pts/4        172.29.96.94     Sun Apr  7 21:18 - 23:51  (02:32)
+michelle pts/4        172.29.96.94     Sun Apr  7 20:58 - 21:16  (00:17)
+billysp2 pts/4                         Sun Apr  7 19:19 - 20:12  (00:52)
+billysp2 pts/1        172.29.96.92     Sun Apr  7 18:00 - 23:57  (05:56)
+gavinsp2 pts/1        172.29.96.84     Sat Apr  6 22:59 - 01:24  (02:25)
+michelle pts/1                         Sat Apr  6 20:04 - 20:40  (00:36)
+michelle pts/4        172.29.96.88     Sat Apr  6 19:24 - 21:01  (01:37)
+taliasp2 pts/1                         Sat Apr  6 19:16 - 19:37  (00:20)
+taliasp2 pts/1                         Sat Apr  6 19:16 - 19:16  (00:00)
+taliasp2 pts/1                         Sat Apr  6 19:14 - 19:14  (00:00)
+taliasp2 pts/1                         Sat Apr  6 19:02 - 19:02  (00:00)
+taliasp2 pts/1                         Sat Apr  6 18:56 - 18:56  (00:00)
+taliasp2 pts/10                        Sat Apr  6 17:43 - 18:50  (01:07)
+taliasp2 pts/8        172.29.96.86     Sat Apr  6 17:42 - 23:57  (06:14)
+taliasp2 pts/4                         Sat Apr  6 16:24 - 19:24  (02:59)
+taliasp2 pts/4                         Sat Apr  6 16:17 - 16:18  (00:00)
+taliasp2 pts/1        172.29.96.86     Sat Apr  6 16:16 - 18:38  (02:21)
+gavinsp2 pts/1        172.29.96.70     Fri Apr  5 15:15 - 15:21  (00:05)
+daosp24  pts/1        172.29.96.64     Fri Apr  5 01:28 - 02:24  (00:56)
+daosp24  pts/4        172.29.96.64     Thu Apr  4 20:40 - 23:06  (02:25)
+daosp24  pts/4                         Thu Apr  4 19:23 - 19:23  (00:00)
+daosp24  pts/4                         Thu Apr  4 19:16 - 19:18  (00:01)
+daosp24  pts/1        172.29.96.75     Thu Apr  4 19:15 - 21:25  (02:09)
+daosp24  pts/4                         Thu Apr  4 19:13 - 19:14  (00:00)
+daosp24  pts/1        172.29.96.75     Thu Apr  4 19:02 - 19:15  (00:12)
+rickysp2 pts/4                         Thu Apr  4 16:12 - 16:45  (00:32)
+rickysp2 pts/1        172.29.96.66     Thu Apr  4 16:11 - 17:20  (01:08)
+ericsp24 pts/4                         Thu Apr  4 05:50 - 06:34  (00:44)
+ericsp24 pts/1        172.29.96.65     Thu Apr  4 05:49 - 06:55  (01:06)
+ajaysp24 pts/4                         Tue Apr  2 05:42 - 05:50 (2+00:08)
+ajaysp24 pts/1        172.29.96.44     Tue Apr  2 05:40 - 08:43  (03:02)
+jyotika  pts/1        172.29.96.37     Mon Apr  1 13:42 - 18:42  (04:59)
+gavinsp2 pts/1        172.29.96.18     Sun Mar 31 01:04 - 02:54  (01:49)
+matthews pts/1        172.29.96.19     Sat Mar 30 16:59 - 17:24  (00:24)
+edisonsp pts/1        172.29.96.16     Sat Mar 30 03:08 - 03:14  (00:06)
+rickysp2 pts/4        172.29.96.13     Fri Mar 29 16:57 - 17:55  (00:58)
+alexsp24 pts/1        172.29.96.11     Fri Mar 29 16:26 - 18:34  (02:07)
+jadonsp2 pts/4                         Fri Mar 29 00:26 - 00:34  (00:07)
+jadonsp2 pts/1        172.29.96.56     Fri Mar 29 00:26 - 00:47  (00:21)
+jadonsp2 pts/4                         Fri Mar 29 00:25 - 00:25  (00:00)
+jadonsp2 pts/4                         Fri Mar 29 00:20 - 00:24  (00:03)
+jadonsp2 pts/1        172.29.96.56     Fri Mar 29 00:20 - 00:25  (00:05)
+jadonsp2 pts/1        172.29.96.56     Thu Mar 28 23:35 - 00:20  (00:45)
+jadonsp2 pts/1        172.29.96.56     Thu Mar 28 23:28 - 23:35  (00:06)
+jadonsp2 pts/4                         Thu Mar 28 23:16 - 23:17  (00:00)
+jadonsp2 pts/1        172.29.96.56     Thu Mar 28 23:15 - 23:27  (00:12)
+ashish   pts/1        172.29.96.54     Thu Mar 28 20:39 - 21:26  (00:47)
+manassp2 pts/1        172.29.96.51     Thu Mar 28 17:14 - 17:22  (00:08)
+briansp2 pts/35                        Thu Mar 28 17:04 - 18:48  (01:43)
+briansp2 pts/10       172.29.96.61     Thu Mar 28 17:03 - 18:51  (01:48)
+nhatsp24 pts/34       172.29.96.60     Thu Mar 28 16:45 - 18:46  (02:01)
+matthews pts/33       172.29.96.65     Thu Mar 28 16:45 - 17:20  (00:35)
+tylersp2 pts/32       172.29.96.67     Thu Mar 28 16:44 - 17:47  (01:02)
+ashish   pts/29       172.29.96.66     Thu Mar 28 16:44 - 19:12  (02:27)
+georgesp pts/28       172.29.96.64     Thu Mar 28 16:44 - 19:02  (02:17)
+rickysp2 pts/27       172.29.96.60     Thu Mar 28 16:44 - 18:46  (02:02)
+tylermsp pts/4        172.29.96.63     Thu Mar 28 16:43 - 18:46  (02:02)
+farihasp pts/17       172.29.96.57     Thu Mar 28 16:22 - 18:24  (02:01)
+manassp2 pts/10                        Thu Mar 28 16:15 - 16:57  (00:41)
+manassp2 pts/8        172.29.96.51     Thu Mar 28 16:12 - 17:14  (01:02)
+albertsp pts/4        172.29.96.60     Thu Mar 28 16:01 - 16:35  (00:33)
+ashish   pts/1        172.29.96.51     Thu Mar 28 14:25 - 17:08  (02:42)
+sheelsp2 pts/1        172.29.96.57     Thu Mar 28 00:37 - 01:07  (00:29)
+sheelsp2 pts/1        172.29.96.57     Thu Mar 28 00:32 - 00:37  (00:04)
+robertsp pts/8                         Wed Mar 27 18:08 - 20:54  (02:45)
+robertsp pts/1        172.29.96.45     Wed Mar 27 17:55 - 21:04  (03:08)
+alexsp24 pts/1        172.29.96.28     Wed Mar 27 14:36 - 16:39  (02:02)
+alexsp24 pts/1        172.29.96.28     Wed Mar 27 14:33 - 14:34  (00:00)
+alexsp24 pts/8                         Wed Mar 27 14:01 - 14:14  (00:13)
+alexsp24 pts/4        172.29.96.28     Wed Mar 27 13:27 - 14:14  (00:46)
+sheelsp2 pts/28       172.29.96.20     Wed Mar 27 13:01 - 15:13  (02:12)
+gursimra pts/27       172.29.96.29     Wed Mar 27 12:17 - 15:17  (02:59)
+alexsp24 pts/17       172.29.96.28     Wed Mar 27 12:10 - 15:23  (03:12)
+connersp pts/10       172.29.96.27     Wed Mar 27 12:07 - 13:14  (01:06)
+ericsp24 pts/8        172.29.96.25     Wed Mar 27 12:02 - 13:16  (01:13)
+billysp2 pts/4        172.29.96.24     Wed Mar 27 12:01 - 13:11  (01:09)
+jyotika  pts/1        172.29.96.22     Wed Mar 27 11:53 - 14:30  (02:37)
+jyotika  pts/1        172.29.96.13     Wed Mar 27 09:25 - 11:37  (02:12)
+aarushis pts/4        172.29.96.36     Wed Mar 27 04:12 - 06:16  (02:03)
+jyotika  pts/1        172.29.96.38     Wed Mar 27 03:58 - 06:20  (02:21)
+jyotika  pts/1        172.29.96.38     Wed Mar 27 03:53 - 03:58  (00:04)
+robertos pts/8        172.29.96.3      Wed Mar 27 03:24 - 06:21  (02:57)
+aarushis pts/8                         Wed Mar 27 02:55 - 02:55  (00:00)
+tylermsp pts/36       172.29.96.37     Wed Mar 27 02:43 - 04:49  (02:05)
+aarushis pts/33                        Wed Mar 27 02:39 - 02:54  (00:15)
+aarushis pts/34       172.29.96.36     Wed Mar 27 02:35 - 04:12  (01:36)
+jyotika  pts/29       172.29.96.38     Wed Mar 27 02:34 - 03:53  (01:18)
+madhavsp pts/10       172.29.96.34     Wed Mar 27 02:04 - 04:10  (02:06)
+tylermsp pts/28       172.29.96.44     Wed Mar 27 01:43 - 04:43  (02:59)
+madhavsp pts/10       172.29.96.34     Wed Mar 27 01:26 - 02:04  (00:37)
+akashsp2 pts/4        172.29.96.4      Wed Mar 27 01:21 - 03:37  (02:16)
+madhavsp pts/10       172.29.96.34     Wed Mar 27 01:17 - 01:26  (00:08)
+madhavsp pts/10       172.29.96.34     Wed Mar 27 01:16 - 01:17  (00:00)
+madhavsp pts/10       172.29.96.34     Wed Mar 27 01:14 - 01:15  (00:00)
+albertsp pts/1        172.29.96.38     Wed Mar 27 01:14 - 03:49  (02:35)
+billysp2 pts/10       172.29.96.45     Wed Mar 27 00:47 - 00:47  (00:00)
+albertsp pts/1        172.29.96.38     Wed Mar 27 00:45 - 01:13  (00:27)
+tylersp2 pts/28       172.29.96.37     Wed Mar 27 00:41 - 00:49  (00:07)
+tanishas pts/17       172.29.96.39     Wed Mar 27 00:35 - 05:48  (05:12)
+tylersp2 pts/34       172.29.96.40     Wed Mar 27 00:28 - 00:55  (00:27)
+tylersp2 pts/1        172.29.96.37     Wed Mar 27 00:18 - 00:42  (00:23)
+davidsp2 pts/35       172.29.96.44     Tue Mar 26 23:54 - 03:27  (03:32)
+yelinsp2 pts/34       172.29.96.42     Tue Mar 26 23:51 - 00:06  (00:14)
+brandons pts/29       172.29.96.41     Tue Mar 26 23:47 - 02:21  (02:33)
+madhavsp pts/8        172.29.96.34     Tue Mar 26 23:36 - 02:53  (03:16)
+sangsp24 pts/17       172.29.96.39     Tue Mar 26 23:30 - 00:29  (00:58)
+madhavsp pts/8        172.29.96.34     Tue Mar 26 23:17 - 23:35  (00:18)
+jimmysp2 pts/33       172.29.96.7      Tue Mar 26 23:00 - 02:37  (03:37)
+akashsp2 pts/4        172.29.96.4      Tue Mar 26 22:58 - 01:20  (02:22)
+athishsp pts/32       172.29.96.3      Tue Mar 26 22:50 - 02:48  (03:57)
+madhavsp pts/29       172.29.96.34     Tue Mar 26 22:45 - 23:16  (00:31)
+hardiksp pts/27       172.29.96.6      Tue Mar 26 22:37 - 05:05  (06:28)
+sunidhis pts/17       172.29.96.38     Tue Mar 26 22:35 - 23:25  (00:49)
+albertsp pts/10       172.29.96.5      Tue Mar 26 22:35 - 00:46  (02:11)
+tylersp2 pts/28       172.29.96.40     Tue Mar 26 22:06 - 00:31  (02:24)
+sunidhis pts/17       172.29.96.38     Tue Mar 26 22:00 - 22:24  (00:23)
+albertsp pts/8        172.29.96.34     Tue Mar 26 21:01 - 23:04  (02:03)
+albertsp pts/8        172.29.96.34     Tue Mar 26 20:58 - 21:00  (00:01)
+athishsp pts/4        172.29.96.35     Tue Mar 26 20:47 - 22:54  (02:06)
+farihasp pts/1        172.29.96.4      Tue Mar 26 20:31 - 00:15  (03:44)
+albertsp pts/4        172.29.96.34     Tue Mar 26 20:02 - 20:42  (00:40)
+edisonsp pts/27       172.29.96.38     Tue Mar 26 19:37 - 22:26  (02:49)
+brandons pts/10       172.29.96.37     Tue Mar 26 19:34 - 22:14  (02:39)
+bennysp2 pts/8        172.29.96.36     Tue Mar 26 19:30 - 20:09  (00:39)
+nhatsp24 pts/4        172.29.97.253    Tue Mar 26 18:59 - 20:02  (01:03)
+madhavsp pts/1        172.29.96.4      Tue Mar 26 18:23 - 20:26  (02:03)
+edisonsp pts/1        172.29.97.253    Tue Mar 26 17:52 - 17:52  (00:00)
+ashish   pts/1        172.29.97.253    Tue Mar 26 17:51 - 17:51  (00:00)
+akashsp2 pts/8        172.29.96.4      Tue Mar 26 16:41 - 19:05  (02:23)
+akashsp2 pts/8        172.29.96.4      Tue Mar 26 16:37 - 16:41  (00:04)
+davidsp2 pts/28       172.29.96.3      Tue Mar 26 16:28 - 18:31  (02:03)
+madhavsp pts/27       172.29.96.2      Tue Mar 26 16:24 - 18:27  (02:02)
+tylermsp pts/17       172.29.96.1      Tue Mar 26 16:22 - 19:37  (03:15)
+tylersp2 pts/10       172.29.97.254    Tue Mar 26 16:21 - 18:26  (02:04)
+ashish   pts/4        172.29.97.253    Tue Mar 26 16:05 - 17:50  (01:45)
+pratiksp pts/8        172.29.96.34     Tue Mar 26 15:07 - 16:31  (01:24)
+davidsp2 pts/1        172.29.96.32     Tue Mar 26 14:58 - 17:37  (02:38)
+ashishf2 pts/8        172.29.96.33     Tue Mar 26 14:41 - 14:41  (00:00)
+ashish   pts/4        172.29.96.33     Tue Mar 26 14:40 - 15:17  (00:37)
+megansp2 pts/1        172.29.96.32     Tue Mar 26 14:05 - 14:43  (00:37)
+megansp2 pts/1        172.29.96.32     Tue Mar 26 14:02 - 14:05  (00:02)
+megansp2 pts/1        172.29.96.32     Tue Mar 26 13:58 - 14:02  (00:04)
+bennysp2 pts/4        172.29.96.16     Tue Mar 26 12:51 - 13:43  (00:52)
+diyasp24 pts/1        172.29.96.33     Tue Mar 26 12:16 - 12:59  (00:42)
+aayushsp pts/1        172.29.96.8      Tue Mar 26 05:40 - 07:56  (02:15)
+jadonsp2 pts/1        172.29.96.13     Tue Mar 26 03:28 - 03:58  (00:30)
+gavinsp2 pts/8                         Tue Mar 26 02:51 - 02:51  (00:00)
+gavinsp2 pts/27       172.29.97.254    Tue Mar 26 02:38 - 03:10  (00:32)
+daosp24  pts/10       172.29.96.26     Tue Mar 26 02:34 - 03:00  (00:26)
+jadonsp2 pts/4        172.29.96.13     Tue Mar 26 02:20 - 03:28  (01:07)
+daosp24  pts/4        172.29.96.26     Tue Mar 26 02:14 - 02:17  (00:03)
+diyasp24 pts/10       172.29.96.16     Tue Mar 26 01:48 - 02:07  (00:18)
+gradysp2 pts/58       172.29.96.29     Tue Mar 26 01:40 - 02:57  (01:17)
+daosp24  pts/58       172.29.96.26     Tue Mar 26 01:38 - 01:39  (00:00)
+maysp24  pts/8        172.29.96.27     Tue Mar 26 01:38 - 02:47  (01:09)
+daosp24  pts/8        172.29.96.26     Tue Mar 26 01:33 - 01:34  (00:00)
+diyasp24 pts/52       172.29.96.16     Tue Mar 26 01:21 - 02:15  (00:54)
+ronsp24  pts/33       172.29.96.18     Tue Mar 26 01:13 - 05:09  (03:55)
+alexsp24 pts/58       172.29.96.5      Tue Mar 26 01:06 - 01:13  (00:07)
+athishsp pts/57       172.29.96.13     Tue Mar 26 01:06 - 03:08  (02:02)
+jyotika  pts/32       172.29.96.12     Tue Mar 26 01:01 - 03:20  (02:19)
+kobesp24 pts/57       172.29.96.4      Tue Mar 26 00:47 - 00:57  (00:09)
+ajaysp24 pts/1        172.29.96.26     Tue Mar 26 00:47 - 03:00  (02:13)
+nicolesp pts/56       172.29.96.4      Tue Mar 26 00:46 - 02:52  (02:06)
+kobesp24 pts/55       172.29.96.26     Tue Mar 26 00:46 - 02:52  (02:06)
+ajaysp24 pts/54       172.29.96.4      Tue Mar 26 00:45 - 02:47  (02:01)
+kobesp24 pts/53       172.29.96.26     Tue Mar 26 00:39 - 02:45  (02:05)
+vaikunta pts/52       172.29.96.15     Tue Mar 26 00:36 - 01:12  (00:36)
+nicolesp pts/51       172.29.96.4      Tue Mar 26 00:30 - 02:46  (02:15)
+kobesp24 pts/48       172.29.96.15     Tue Mar 26 00:28 - 02:31  (02:03)
+vaikunta pts/50       172.29.96.4      Tue Mar 26 00:26 - 02:29  (02:03)
+xiaokesp pts/49       172.29.96.17     Tue Mar 26 00:24 - 02:16  (01:52)
+kobesp24 pts/48       172.29.96.15     Tue Mar 26 00:18 - 00:27  (00:09)
+kobesp24 pts/42       172.29.96.15     Tue Mar 26 00:13 - 02:18  (02:05)
+ajaysp24 pts/47       172.29.96.26     Tue Mar 26 00:09 - 02:36  (02:26)
+jaydevsp pts/45       172.29.96.28     Tue Mar 26 00:09 - 03:14  (03:04)
+albertsp pts/44       172.29.96.6      Tue Mar 26 00:05 - 03:19  (03:13)
+nicolesp pts/43       172.29.96.4      Tue Mar 26 00:02 - 02:24  (02:21)
+kobesp24 pts/42       172.29.96.15     Tue Mar 26 00:02 - 00:13  (00:10)
+ajaysp24 pts/4        172.29.96.26     Tue Mar 26 00:00 - 02:05  (02:04)
+daosp24  pts/41       172.29.96.15     Mon Mar 25 23:59 - 02:03  (02:03)
+vaikunta pts/40       172.29.96.4      Mon Mar 25 23:59 - 02:03  (02:04)
+nicolesp pts/39       172.29.96.4      Mon Mar 25 23:56 - 01:59  (02:02)
+kobesp24 pts/38       172.29.96.15     Mon Mar 25 23:55 - 01:56  (02:00)
+vaikunta pts/37       172.29.96.4      Mon Mar 25 23:55 - 01:57  (02:02)
+daosp24  pts/36       172.29.96.15     Mon Mar 25 23:53 - 01:57  (02:04)
+ajaysp24 pts/35       172.29.96.26     Mon Mar 25 23:51 - 02:00  (02:08)
+vaikunta pts/34       172.29.96.15     Mon Mar 25 23:50 - 01:52  (02:02)
+sandrasp pts/33       172.29.96.16     Mon Mar 25 23:48 - 01:13  (01:24)
+vaikunta pts/27       172.29.96.15     Mon Mar 25 23:47 - 01:52  (02:05)
+vaikunta pts/10       172.29.96.15     Mon Mar 25 23:33 - 01:45  (02:12)
+gursimra pts/32       172.29.96.12     Mon Mar 25 23:28 - 00:48  (01:20)
+nicolesp pts/28       172.29.96.4      Mon Mar 25 22:58 - 01:57  (02:59)
+connersp pts/27       172.29.96.6      Mon Mar 25 22:58 - 23:37  (00:39)
+nicolesp pts/8        172.29.96.4      Mon Mar 25 22:57 - 01:33  (02:36)
+ajaysp24 pts/29       172.29.96.26     Mon Mar 25 22:27 - 01:52  (03:25)
+ayesp24  pts/27       172.29.96.12     Mon Mar 25 22:17 - 22:32  (00:14)
+justinsp pts/28       172.29.96.14     Mon Mar 25 22:15 - 22:35  (00:20)
+athishsp pts/4        172.29.96.13     Mon Mar 25 22:13 - 00:00  (01:46)
+sandrasp pts/32       172.29.96.26     Mon Mar 25 21:53 - 22:19  (00:26)
+ayesp24  pts/27       172.29.96.12     Mon Mar 25 21:47 - 22:17  (00:29)
+dylansp2 pts/17       172.29.96.9      Mon Mar 25 21:47 - 02:52  (05:05)
+albertsp pts/10       172.29.96.4      Mon Mar 25 21:26 - 23:33  (02:06)
+sheelsp2 pts/10       172.29.96.8      Mon Mar 25 21:24 - 21:25  (00:00)
+piercesp pts/1        172.29.96.5      Mon Mar 25 21:07 - 00:46  (03:39)
+swansp24 pts/1                         Mon Mar 25 21:06 - 21:06  (00:00)
+jonathan pts/28       172.29.96.7      Mon Mar 25 20:48 - 22:02  (01:13)
+swansp24 pts/8        172.29.97.254    Mon Mar 25 20:33 - 22:31  (01:58)
+sandrasp pts/1        172.29.96.5      Mon Mar 25 20:09 - 21:05  (00:56)
+breannas pts/1                         Mon Mar 25 19:55 - 19:57  (00:02)
+breannas pts/29       172.29.96.4      Mon Mar 25 19:55 - 22:13  (02:18)
+gursimra pts/17       172.29.96.3      Mon Mar 25 19:15 - 21:36  (02:20)
+diyasp24 pts/27       172.29.96.9      Mon Mar 25 18:37 - 20:52  (02:15)
+jessesp2 pts/10       172.29.96.8      Mon Mar 25 18:31 - 21:15  (02:43)
+athishsp pts/28       172.29.96.7      Mon Mar 25 18:22 - 20:38  (02:16)
+gavinsp2 pts/27       172.29.96.4      Mon Mar 25 18:22 - 18:29  (00:07)
+gavinsp2 pts/27       172.29.96.4      Mon Mar 25 18:02 - 18:20  (00:17)
+jessesp2 pts/8        172.29.96.5      Mon Mar 25 17:52 - 20:18  (02:25)
+ajaysp24 pts/1        172.29.96.3      Mon Mar 25 17:48 - 19:55  (02:06)
+vaikunta pts/17       172.29.96.17     Mon Mar 25 16:34 - 19:02  (02:28)
+swansp24 pts/10       172.29.96.4      Mon Mar 25 15:50 - 18:28  (02:38)
+nicholso pts/4        172.29.96.26     Mon Mar 25 15:39 - 22:03  (06:24)
+benjamin pts/1        172.29.96.24     Mon Mar 25 14:25 - 17:19  (02:54)
+robertsp pts/10       172.29.96.25     Mon Mar 25 13:46 - 13:52  (00:05)
+alexsp24 pts/8        172.29.96.19     Mon Mar 25 13:21 - 16:40  (03:19)
+gursimra pts/35       172.29.96.23     Mon Mar 25 12:15 - 14:47  (02:31)
+breannas pts/34       172.29.96.24     Mon Mar 25 12:15 - 14:58  (02:43)
+ajaysp24 pts/33       172.29.96.22     Mon Mar 25 12:13 - 13:08  (00:54)
+connersp pts/32       172.29.96.21     Mon Mar 25 12:06 - 13:18  (01:12)
+daosp24  pts/29       172.29.96.20     Mon Mar 25 12:04 - 14:36  (02:31)
+alexsp24 pts/28       172.29.96.19     Mon Mar 25 12:01 - 15:07  (03:05)
+billysp2 pts/27       172.29.96.18     Mon Mar 25 12:00 - 13:11  (01:10)
+vaikunta pts/17       172.29.96.17     Mon Mar 25 11:59 - 16:17  (04:18)
+ericsp24 pts/10       172.29.96.12     Mon Mar 25 11:55 - 13:18  (01:23)
+matthews pts/8        172.29.96.15     Mon Mar 25 11:39 - 13:07  (01:28)
+nicholso pts/4        172.29.96.14     Mon Mar 25 11:07 - 15:18  (04:11)
+jyotika  pts/1        172.29.96.8      Mon Mar 25 10:26 - 13:57  (03:31)
+gursimra pts/1        172.29.96.10     Mon Mar 25 10:11 - 10:16  (00:05)
+jyotika  pts/17       172.29.97.245    Mon Mar 25 01:00 - 03:10  (02:10)
+khushisp pts/10       172.29.97.246    Mon Mar 25 00:48 - 01:19  (00:30)
+jyotika  pts/8        172.29.97.245    Mon Mar 25 00:44 - 01:08  (00:23)
+georgesp pts/4        172.29.97.244    Mon Mar 25 00:14 - 03:30  (03:15)
+georgesp pts/2        172.29.97.244    Mon Mar 25 00:08 - 01:03  (00:55)
+georgesp pts/1        172.29.97.244    Mon Mar 25 00:00 - 04:12  (04:12)
+chih-kuo pts/8        172.29.97.242    Sun Mar 24 20:07 - 22:52  (02:45)
+megansp2 pts/4        172.29.97.240    Sun Mar 24 19:48 - 22:17  (02:28)
+fnusp24  pts/2                         Sun Mar 24 19:32 - 20:20  (00:48)
+fnusp24  pts/1        172.29.97.239    Sun Mar 24 19:32 - 23:23  (03:51)
+fnusp24  pts/1        172.29.97.239    Sun Mar 24 19:31 - 19:31  (00:00)
+fnusp24  pts/2                         Sun Mar 24 19:27 - 19:32  (00:04)
+fnusp24  pts/1        172.29.97.239    Sun Mar 24 19:26 - 19:31  (00:04)
+fnusp24  pts/2                         Sun Mar 24 18:58 - 19:26  (00:28)
+fnusp24  pts/1        172.29.97.239    Sun Mar 24 18:55 - 19:26  (00:30)
+akashsp2 pts/2                         Sun Mar 24 14:47 - 14:51  (00:03)
+akashsp2 pts/1        172.29.97.242    Sun Mar 24 14:46 - 16:52  (02:06)
+briansp2 pts/1        172.29.97.238    Sun Mar 24 12:10 - 13:02  (00:51)
+briansp2 pts/1        172.29.97.238    Sun Mar 24 11:26 - 12:10  (00:44)
+jyotika  pts/1        172.29.97.238    Sun Mar 24 01:44 - 06:17  (04:32)
+megansp2 pts/8        172.29.97.249    Sun Mar 24 01:03 - 01:25  (00:22)
+xuebosp2 pts/4        172.29.97.248    Sun Mar 24 00:56 - 01:10  (00:13)
+aayushsp pts/2        172.29.97.246    Sun Mar 24 00:16 - 03:10  (02:54)
+manassp2 pts/1        172.29.97.238    Sat Mar 23 23:35 - 01:31  (01:56)
+atishays pts/2        172.29.97.245    Sat Mar 23 21:15 - 00:03  (02:48)
+akashsp2 pts/2                         Sat Mar 23 20:36 - 20:37  (00:00)
+akashsp2 pts/2                         Sat Mar 23 20:36 - 20:36  (00:00)
+akashsp2 pts/1        172.29.97.244    Sat Mar 23 20:25 - 22:43  (02:18)
+ronsp24  pts/1        172.29.97.243    Sat Mar 23 11:46 - 13:51  (02:05)
+ronsp24  pts/1        172.29.97.243    Sat Mar 23 11:29 - 11:46  (00:16)
+ronsp24  pts/2        172.29.97.243    Sat Mar 23 10:58 - 11:05  (00:07)
+ronsp24  pts/1        172.29.97.243    Sat Mar 23 10:33 - 11:28  (00:55)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 05:50 - 07:53  (02:02)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 05:45 - 05:49  (00:04)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 05:40 - 05:44  (00:04)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 05:39 - 05:40  (00:00)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 05:35 - 05:39  (00:04)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 04:59 - 05:34  (00:35)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 04:44 - 04:58  (00:14)
+ronsp24  pts/2        172.29.97.236    Sat Mar 23 03:38 - 03:58  (00:20)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 02:55 - 04:44  (01:48)
+ronsp24  pts/1        172.29.97.236    Sat Mar 23 02:04 - 02:55  (00:50)
+billysp2 pts/1        172.29.97.236    Sat Mar 23 01:29 - 01:47  (00:17)
+xuebosp2 pts/10       172.29.97.237    Sat Mar 23 01:26 - 02:09  (00:42)
+gavinsp2 pts/10                        Sat Mar 23 01:11 - 01:22  (00:10)
+xuebosp2 pts/8        172.29.97.247    Sat Mar 23 00:37 - 02:41  (02:04)
+gavinsp2 pts/4        172.29.97.243    Sat Mar 23 00:13 - 01:44  (01:30)
+gavinsp2 pts/2        172.29.97.243    Fri Mar 22 23:17 - 02:01  (02:44)
+billysp2 pts/1        172.29.97.236    Fri Mar 22 22:46 - 01:28  (02:42)
+ericsp24 pts/8        172.29.97.236    Fri Mar 22 05:01 - 05:52  (00:50)
+ericsp24 pts/1        172.29.97.236    Fri Mar 22 05:00 - 06:03  (01:02)
+amansp24 pts/4        172.29.97.233    Fri Mar 22 02:58 - 05:01  (02:02)
+ronsp24  pts/2        172.29.97.241    Fri Mar 22 02:53 - 05:08  (02:15)
+ronsp24  pts/8        172.29.97.230    Fri Mar 22 02:29 - 04:34  (02:05)
+amansp24 pts/4        172.29.97.233    Fri Mar 22 02:22 - 02:57  (00:35)
+ronsp24  pts/1        172.29.97.237    Fri Mar 22 02:21 - 04:25  (02:04)
+amansp24 pts/1        172.29.97.233    Fri Mar 22 02:17 - 02:21  (00:03)
+ronsp24  pts/2        172.29.97.233    Fri Mar 22 00:44 - 02:45  (02:01)
+gavinsp2 pts/1        172.29.97.230    Fri Mar 22 00:16 - 01:22  (01:05)
+gavinsp2 pts/1        172.29.97.230    Fri Mar 22 00:09 - 00:15  (00:05)
+sheelsp2 pts/35       172.29.97.233    Thu Mar 21 17:00 - 19:11  (02:10)
+sunidhis pts/34       172.29.97.232    Thu Mar 21 16:46 - 19:09  (02:23)
+georgesp pts/33       172.29.97.231    Thu Mar 21 16:37 - 19:33  (02:56)
+akashsp2 pts/32       172.29.97.230    Thu Mar 21 16:33 - 18:39  (02:05)
+tylersp2 pts/29       172.29.97.222    Thu Mar 21 16:32 - 17:40  (01:07)
+ashish   pts/28       172.29.97.224    Thu Mar 21 16:28 - 17:49  (01:21)
+farihasp pts/10       172.29.97.226    Thu Mar 21 16:28 - 17:47  (01:18)
+manassp2 pts/8        172.29.97.223    Thu Mar 21 16:01 - 18:44  (02:43)
+manassp2 pts/4        172.29.97.223    Thu Mar 21 15:48 - 18:02  (02:13)
+amansp24 pts/1        172.29.97.224    Thu Mar 21 15:25 - 17:40  (02:14)
+acesp24  pts/2        172.29.97.225    Thu Mar 21 15:19 - 19:23  (04:03)
+ashish   pts/1        172.29.97.226    Thu Mar 21 15:15 - 15:24  (00:09)
+gradysp2 pts/1        172.29.97.221    Thu Mar 21 05:31 - 05:45  (00:13)
+brandons pts/1        172.29.97.218    Thu Mar 21 04:00 - 04:03  (00:03)
+
+wtmp begins Thu Mar 21 03:57:54 2024
+
+Command: wc -l last.fake
+Output: 507 last.fake
+
+Command: grep ‘sp24’ last.fake > lastsp24.fake
+Output: None
+
+Command: sed '/sp24/ d' lastsp24.fake | wc -l
+Output: 0
+
+###############################################
+
+TASK 2:
+
+Command: grep " Sun " lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}'
+
+Output:
+The list of people who worked on Sunday are:
+aayushsp24
+akashsp24
+billysp24
+breannasp24
+briansp24
+chih-kuosp24
+fnusp24
+gavinsp24
+megansp24
+michellesp24
+swansp24
+xuebosp24
+Kudos to these people for putting in the work
+
+###############################################
+
+TASK 3: 
+
+Command: awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($6 >= "23:00" || $6 <= "04:00") print $1 } else if ($7 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($7 >= "23:00" || $7 <= "04:00") print $1 } }' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+
+Output:
+Night Owls List:
+aarushisp24
+aayushsp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+ayesp24
+billysp24
+brandonsp24
+breannasp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+jadonsp24
+jaydevsp24
+jimmysp24
+justinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+nicolesp24
+robertosp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+tanishasp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+Night Owls are dope. Please ensure you get enough sleep though.
+
+###############################################
+
+TASK 4:
+
+Command: awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($6 >= "05:00" || $6 <= "09:00") print $1 } else if ($7 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($7 >= "05:00" || $7 <= "09:00") print $1 } }' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+
+Output:
+Early Birds List:
+aarushisp24
+aayushsp24
+acesp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+atishaysp24
+ayesp24
+benjaminsp24
+bennysp24
+billysp24
+brandonsp24
+breannasp24
+briansp24
+chih-kuosp24
+connersp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+ericsp24
+farihasp24
+fnusp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+hardiksp24
+jadonsp24
+jaydevsp24
+jessesp24
+jimmysp24
+jonathansp24
+justinsp24
+kevinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+michellesp24
+nhatsp24
+nicholsonsp24
+nicolesp24
+piercesp24
+pratiksp24
+rickysp24
+robertosp24
+robertsp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+swansp24
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+Early Birds are dope. Please ensure you get enough sleep though.
+
+###############################################
+
+TASK 5:
+
+Command: awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+
+Output:
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+
+###############################################
+
+TASK 6:
+
+Command: awk -F ':' '{if($1 ~ /^a/ && $3 % 2 == 0)print $1}'
+
+Output:
+angie23fa
+areebah23fa
+apple23fa
+ajay23fa
+alan23fa
+amreenf23
+acesp24
+akashsp24
+ayesp24
+alexsp24
+aayushsp24
+ajaysp24
+ashish
+amansp24
+
+###############################################
+
+TASK 7:
+
+Command: sed 's/[0-9a-zA-Z ]//g' passwd.fake | sort -u
+
+Output:
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
