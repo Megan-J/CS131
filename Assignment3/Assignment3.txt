@@ -1,6 +1,6 @@
 TASK 1:
 
-Command: last
+Command: last >> Assignment3.txt
 Output of Command:
 madhavsp pts/54       172.29.96.179    Fri Apr 19 19:03   still logged in
 georgesp pts/53       172.29.96.173    Fri Apr 19 19:02   still logged in
@@ -794,22 +794,23 @@ brandons pts/1        172.29.97.218    Thu Mar 21 04:00 - 04:03  (00:03)
 
 wtmp begins Thu Mar 21 03:57:54 2024
 
-Command: wc -l last.fake
-Output: 507 last.fake
+Command(s) used to solve:
+wc -l last.fake >> Assignment3.txt
+grep ‘sp24’ last.fake > lastsp24.fake
+wc -l lastsp24.fake >> Assignment3.txt
 
-Command: grep ‘sp24’ last.fake > lastsp24.fake
-Output: None
-
-Command: sed '/sp24/ d' lastsp24.fake | wc -l
-Output: 0
+Output of Command(s):
+507 last.fake
+478 lastsp24.fake
 
 ###############################################
 
 TASK 2:
 
-Command: grep " Sun " lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}'
+Command used to solve:
+grep " Sun " lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}' >> Assignment3.txt
 
-Output:
+Output of Command:
 The list of people who worked on Sunday are:
 aayushsp24
 akashsp24
@@ -829,9 +830,10 @@ Kudos to these people for putting in the work
 
 TASK 3: 
 
-Command: awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($6 >= "23:00" || $6 <= "04:00") print $1 } else if ($7 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($7 >= "23:00" || $7 <= "04:00") print $1 } }' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+Command used to solve: 
+awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($6 >= "23:00" || $6 <= "04:00") print $1 } else if ($7 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($7 >= "23:00" || $7 <= "04:00") print $1 } }' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt
 
-Output:
+Output of Command:
 Night Owls List:
 aarushisp24
 aayushsp24
@@ -886,89 +888,26 @@ Night Owls are dope. Please ensure you get enough sleep though.
 
 TASK 4:
 
-Command: awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($6 >= "05:00" || $6 <= "09:00") print $1 } else if ($7 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($7 >= "05:00" || $7 <= "09:00") print $1 } }' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+Command used to solve: 
+awk '{ if ($6 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($6 >= "05:00" && $6 <= "09:00") print $1 } else if ($7 ~ /^[0-9][0-9]:[0-9][0-9]$/) { if ($7 >= "05:00" && $7 <= "09:00") print $1 } }' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}' >> Assignment3.txt
 
-Output:
+Output of Command:
 Early Birds List:
-aarushisp24
 aayushsp24
-acesp24
 ajaysp24
-akashsp24
-albertsp24
-alexsp24
-amansp24
-athishsp24
-atishaysp24
-ayesp24
-benjaminsp24
-bennysp24
-billysp24
-brandonsp24
-breannasp24
-briansp24
-chih-kuosp24
-connersp24
-daosp24
-davidsp24
-diyasp24
-dylansp24
-edisonsp24
 ericsp24
-farihasp24
-fnusp24
-gavinsp24
-georgesp24
 gradysp24
-gursimransp24
-hardiksp24
-jadonsp24
-jaydevsp24
-jessesp24
-jimmysp24
-jonathansp24
-justinsp24
-kevinsp24
-khushisp24
-kobesp24
-madhavsp24
-manassp24
-matthewsp24
-maysp24
-megansp24
-michellesp24
-nhatsp24
-nicholsonsp24
-nicolesp24
-piercesp24
-pratiksp24
-rickysp24
-robertosp24
-robertsp24
 ronsp24
-sandrasp24
-sangsp24
-sheelsp24
-sunidhisp24
-swansp24
-taliasp24
-tanishasp24
-tylermsp24
-tylersp24
-vaikuntamsp24
-xiaokesp24
-xuebosp24
-yelinsp24
-zakisp24
 Early Birds are dope. Please ensure you get enough sleep though.
 
 ###############################################
 
 TASK 5:
 
-Command: awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+Command used to solve: 
+awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
 
-Output:
+Output of Command:
 taliasp24
 tanishasp24
 tylermsp24
@@ -978,9 +917,10 @@ tylersp24
 
 TASK 6:
 
-Command: awk -F ':' '{if($1 ~ /^a/ && $3 % 2 == 0)print $1}'
+Command used to solve: 
+awk -F ':' '{if($1 ~ /^a/ && $3 % 2 == 0)print $1}'
 
-Output:
+Output of command:
 angie23fa
 areebah23fa
 apple23fa
@@ -1000,9 +940,10 @@ amansp24
 
 TASK 7:
 
-Command: sed 's/[0-9a-zA-Z ]//g' passwd.fake | sort -u
+Command used to solve: 
+sed 's/[0-9a-zA-Z ]//g' passwd.fake | sort -u
 
-Output:
+Output of command:
 -::::-:/://
 -:::::///-://
 -:::::///__/-://
@@ -1011,5 +952,3 @@ Output:
 :::::///://
 :::::///_/://
 :::::///__/://
-::::://://
-:::::/://
