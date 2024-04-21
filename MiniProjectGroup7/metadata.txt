@@ -1,0 +1,18 @@
+METADATA OF NETFLIX TITLES DATASET
+
+Number of entries: 8807
+
+Features: show_id, type, title, director, cast, country, data_added, release_year, duration, listed_in, description
+
+Value Ranges:
+show_id: s1-s8807
+type: Movie, TV Show
+director: name of the director or blank
+cast: names of cast members or blank
+country: names of the countries where the movie/show was produced
+data_added: 2007-12-31 to 2021-09-24
+release_year: 1925-2021
+rating: the TV Rating of the movie/show
+duration: movie minutes or number of seasons for tv show
+listed_in: genre
+description: summary description
