@@ -1,0 +1,12 @@
+    1  grep -oE '\"[A-Za-z]+\s[0-9]{1,2},\s[0-9]{4}\",[0-9]{4}' netflix_titles.csv | sed 's/["A-Za-z ]//g'  | cut -d "," -f2,3 >> isolatedData.txt
+    2  awk -F "," '{print $1 ":" ($2-$1)}' isolated.txt | sort > sortedDifferences
+    3  awk -F "," '{print $1 ":" ($2-$1)}' isolatedData.txt | sort > sortedDifferences.txt
+    4  clear
+    5  cat sortedDifferences
+    6  ls
+    7  cat sortedDifferences.txt
+    8  vi calculate.sh
+    9  chmod u+rx calculate.sh 
+   10  ./calculate.sh 
+   11  ./calculate.sh > inference1.csv
+   12  history > cmds.log
