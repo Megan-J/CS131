@@ -1,12 +1,23 @@
+COMMAND HISTORY FOR COMPARING THE ACQUISITION OF TV SHOWS/MOVIES OVER TIME
+
+Command to get the date added and release date columns, remove the quotes and months, only take the year of date added and release year
     1  grep -oE '\"[A-Za-z]+\s[0-9]{1,2},\s[0-9]{4}\",[0-9]{4}' netflix_titles.csv | sed 's/["A-Za-z ]//g'  | cut -d "," -f2,3 >> isolatedData.txt
+
+Command to get the year they were added, and the difference of year they were released and added
     2  awk -F "," '{print $1 ":" ($2-$1)}' isolated.txt | sort > sortedDifferences
     3  awk -F "," '{print $1 ":" ($2-$1)}' isolatedData.txt | sort > sortedDifferences.txt
     4  clear
+
+View if the information is correct
     5  cat sortedDifferences
     6  ls
     7  cat sortedDifferences.txt
+
+Write shell script to calculate how many tv shows and movies that were added in a given year that was released the same year and different year
     8  vi calculate.sh
     9  chmod u+rx calculate.sh 
    10  ./calculate.sh 
    11  ./calculate.sh > inference1.csv
    12  history > cmds.log
+
+
