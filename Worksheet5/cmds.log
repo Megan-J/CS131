@@ -1,0 +1,56 @@
+WORKSHEET 5 COMMANDS
+
+Make the directory and download dataset
+    1  mkdir Worksheet5
+    2  cd Worksheet5
+    3  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+
+Making United States directory
+    4  mkdir United States
+    5  ls
+    6  rm United
+    7  rmdir United/
+    8  rmdir States/
+    9  ls
+   10  mkdir UnitedStates
+   11  ls
+   12  cd UnitedStates/
+   13  cd ..
+
+Creating the shell scripting file
+   14  vi script.sh
+   15  pwd
+   16  vi script.sh 
+
+Giving myself access to run the file
+   17  chmod u+xr script.sh 
+   18  clear
+
+Running the script
+   19  ./script.sh 
+
+Checking the files in the directory to see if the script worked
+   20  ls
+   21  cd UnitedStates/
+   22  ls
+
+Checking to see if the proper data was put into the file
+   23  cat Music.txt 
+   24  clear
+   25  cd ..
+
+Fixing some issues in the shell script
+   26  vi script.sh 
+   27  ./script.sh 
+   28  ls
+   29  cat ws5.txt 
+   30  vi script.sh 
+   31  ./script.sh 
+   32  ls
+   33  cat ws5.txt 
+   34  vi ws5.txt 
+   35  clear
+   36  ./script.sh 
+   37  ls
+   38  cat ws5.txt 
+   39  history > cmds.log
