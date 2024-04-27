@@ -1,0 +1,39 @@
+COMMAND HISTORY FOR ANALZYING THE GROWTH OF INTERNATIONAL TV SHOWS/MOVIES RELEASES OVER TIME AND THEIR RATINGS 
+
+----------------------------------------------------------------------------------------------------------------
+
+Extracting "release_year", "rating", "duration", and "listed_in" data for each record in "netlix_titles.csv":
+
+----------------------------------------------------------------------------------------------------------------
+
+1. Redirects these columns when there are multiple categories in the "listed_in" column, and thus, surrounded by double quotes.
+
+grep -oE "[0-9]{4},[A-Z0-9-]*,[0-9]*\s[a-zA-Z]*,\"[a-zA-Z&,' -]*\"" ../netflix_titles.csv >> inference3Data.txt
+
+2. Redirects these columns when there is only one category in the "listed_in" column, and thus, not surrounded by quotes.
+
+grep -oE "[0-9]{4},[A-Z0-9-]*,[0-9]*\s[a-zA-Z]*,[^,\"]+" ../netflix_titles.csv >> inference3Data.txt
+
+3. To check the result of the commands above.
+
+cat inference3Data.txt 
+
+-----------------------------------------------------------------
+
+Extracting graph data and redirecting into csv files:
+
+-----------------------------------------------------------------
+
+1. Computes the number of international TV shows/movies that were released each year, sorting them in reverse chronological order. 
+
+grep 'International' inference3Data.txt | cut -d ',' -f1 | sort -nr | uniq -c | awk 'BEGIN { print "year,number_international_films_released" } { print $2 "," $1}' >> international_releases.csv 
+cat international_releases.csv 
+
+2. Extracts the ratings of international TV shows/movies and computes the number of international TV shows/movies for each rating, sorting the ratings from most to least abundant.
+
+grep 'International' inference3Data.txt | cut -d ',' -f2 | sort -n | uniq -c | sort -nr | awk 'BEGIN { print "rating,number_international_films" } { print $2 "," $1}' >> international_ratings.csv
+cat international_ratings.csv 
+
+--------------------------------
+
+history > inference3cmds.log
