@@ -1,6 +1,6 @@
 #!/bin/bash
 
-grep ',United States,US,' 'Global YouTube Statistics.csv' > UnitedStatesData.txt;
+awk -F, '{ if($8 == "United States") print}' 'Global YouTube Statistics.csv' > UnitedStatesData.txt;
 
 categories=("Music" "Entertainment" "Gaming" "Comedy");
 
