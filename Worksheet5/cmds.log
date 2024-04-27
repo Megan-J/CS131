@@ -197,3 +197,302 @@ Fixing more changes
   138  cat ws5.txt 
   139  git add .
   140  history >> cmds.log 
+
+Changing the shell script
+    1  vi script.sh 
+    2  cd UnitedStates/
+    3  ls
+    4  rm Comedy.txt 
+    5  rm Entertainment.txt 
+    6  rm Gaming.txt 
+    7  rm Music.txt 
+    8  cd ..
+    9  ./script.sh 
+   10  clear
+   11  ls
+   12  cd UnitedStates/
+   13  ls
+   14  cd ..
+   15  vi script.sh 
+   16  grep ',United States,US,' Global\ YouTube\ Statistics.csv 
+   17  clear
+   18  ./script.sh 
+   19  vi script.sh 
+   20  clear
+   21  grep ',United States,US,' 'Global YouTube Statistics.csv'
+   22  clear
+   23  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," '$5 == "Music" {print $5}' UnitedStatesData.txt
+   24  ls
+   25  vi script.sh 
+   26  clear
+   27  ./script.sh 
+   28  ls
+   29  cd UnitedStates/
+   30  ls
+   31  cd ..
+   32  rm ws5.txt 
+   33  cd UnitedStates/
+   34  rm Comedy.txt 
+   35  rm Entertainment.txt 
+   36  rm Gaming.txt 
+   37  rm Music.txt 
+   38  ls
+   39  cd ..
+   40  ls
+   41  clear
+   42  ./script.sh 
+   43  cat ws5.txt 
+   44  ls
+   45  cd UnitedStates/
+   46  ls
+   47  cat Music.txt 
+   48  vi s
+   49  cd ..
+   50  vi script.sh 
+   51  vi UnitedStatesData.txt 
+   52  cat ws5.txt 
+   53  clear
+   54  ls
+   55  vi script.sh 
+   56  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," 'if($5 == “Music”) {print}' UnitedStatesData.txt >> UnitedStates/Music.txt
+   57  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," 'if($5 == “Music”) print}' UnitedStatesData.txt >> UnitedStates/Music.txt
+   58  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," '{if($5 == "Music") print}' UnitedStatesData.txt >> UnitedStates/Music.txt
+   59  cd UnitedStates/
+   60  wc -l Music.txt 
+   61  cd ..
+   62  vi script.sh 
+   63  ls
+   64  rm -r UnitedStates
+   65  ls
+   66  rm ws5.txt 
+   67  ls
+   68  clear
+   69  ./script.sh 
+   70  ls
+   71  mkdir UnitedStates
+   72  ./script.sh 
+   73  ls
+   74  cd UnitedStates/
+   75  cd ..
+   76  cat ws5.txt 
+   77  vi script.sh 
+   78  clear
+   79  awk -F "," '{if($5 == "${category_name}") print}' UnitedStatesData.txt >> UnitedStates/${category_name}.txt;
+   80  clear
+   81  ls
+   82  head UnitedStates
+   83  head UnitedStatesData.txt 
+   84  clear
+   85  vi script.sh 
+   86  ./script.sh 
+   87  ls
+   88  cat ws5.txt 
+   89  vi script.sh 
+   90  ./script.sh 
+   91  cat ws5.txt 
+   92  rm ws5.txt 
+   93  clear
+   94  vi script.sh 
+   95  clear
+   96  ./script.sh 
+   97  cat ws5.txt 
+   98  vi script.sh 
+   99  ./script.sh 
+  100  vi ws5.txt 
+  101  vi script.sh 
+  102  vi ws5.txt 
+  103  rm ws5.txt 
+  104  ./script.sh 
+  105  vi script.sh 
+  106  clear
+  107  ./script.sh 
+  108  ls
+  109  cat ws5.txt 
+  110  ls
+  111  vi script.sh 
+  112  rm ws5.txt 
+  113  UnitedStates/
+  114  cd UnitedStates/
+  115  ls
+  116  rm Comedy.txt 
+  117  rm Entertainment.txt 
+  118  rm Gaming.txt 
+  119  rm Music.txt 
+  120  ls
+  121  clear
+  122  cd ..
+  123  ./script.sh 
+  124  ls
+  125  cat ws5.txt 
+  126  clear
+  127  vi script.sh 
+  128  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,*" 'Global YouTube Statistics.csv' | wc -l 
+  129  vi script.sh 
+  130  l
+  131  ls
+  132  rm ws5.txt 
+  133  rm -r UnitedStates
+  134  mkdir UnitedStates
+  135  ls
+  136  ./script.sh 
+  137  ls
+  138  cat ws5.txt 
+  139  git add .
+  140  history >> cmds.log 
+  141  vi cmds.log 
+  142  git add .
+  143  git commit -m "updated work"
+  144  git push
+  145  git stash
+  146  git pull
+  147  git status
+  148  git stash apply
+  149  git push
+  150  clear
+  151  vi script.sh 
+  152  ./script.sh 
+  153  ls
+  154  cat ws5.txt 
+  155  vi script.sh 
+  156  ./script.sh 
+  157  cat ws5.txt 
+  158  vi script.sh 
+  159  ./script.sh 
+  160  clear
+  161  vi script.sh 
+  162  ./script.sh 
+  163  vi script.sh 
+  164  clear
+  165  ./script.sh 
+  166  vi script.sh 
+  167  clear
+  168  ./script.sh 
+  169  vi script.sh 
+  170  clear
+  171  ./script.sh 
+  172  vi script.sh 
+  173  clear
+  174  ./script.sh 
+  175  cat ws5.txt 
+  176  clear
+  177  vi script.sh 
+  178  ./script.sh 
+  179  ls
+  180  cat ws5.txt 
+  181  clear
+  182  grep "562," Global\ YouTube\ Statistics.csv 
+  183  vi sh
+  184  vi script.sh 
+  185  ./script.sh 
+  186  cat ws5.txt 
+  187  vi script.sh 
+  188  clear
+  189  ./script.sh 
+  190  cat ws5.txt 
+  191  vi script.sh 
+  192  git add .
+  193  rm ws5.txt 
+  194  ls
+  195  cd UnitedStates/
+  196  cd ..
+  197  rm -r UnitedStates
+  198  mkdir UnitedStates
+  199  ./script.sh 
+  200  cat ws5.txt 
+  201  git add .
+  202  git commit -m "updates"
+  203  git push
+  204  vi script.sh 
+  205  ls
+  206  rm ws5.txt 
+  207  rm -r UnitedStates
+  208  ls
+  209  mkdir UnitedStates
+  210  ls
+  211  clear
+  212  ./script.sh 
+  213  ls
+  214  vi script.sh 
+  215  ./script.sh 
+  216  vi script.sh 
+  217  clear
+  218  ./script.sh 
+  219  clear
+  220  vi script.sh 
+  221  ./script.sh 
+  222  vi script.sh 
+  223  ./script.sh 
+  224  vi script.sh 
+  225  ./script.sh 
+  226  ls
+  227  cd UnitedStates/
+  228  ls
+  229  cd ..
+  230  vi script.sh 
+  231  ./script.sh 
+  232  ls
+  233  cat ws5.txt 
+  234  rm ws5.txt 
+  235  rm -r UnitedStates
+  236  mkdir UnitedStates
+  237  ls
+  238  clear
+  239  ./script.sh 
+  240  cat ws5.txt 
+  241  ls
+  242  rm ws5.txt 
+  243  vi script.sh 
+  244  ./script.sh 
+  245  vi script.sh 
+  246  ./script.sh 
+  247  vi script.sh 
+  248  clear
+  249  ./script.sh 
+  250  vi script.sh 
+  251  ./script.sh 
+  252  cat ws5.txt 
+  253  vi script.sh 
+  254  clear
+  255  ./script.sh 
+  256  vi script.sh 
+  257  ./script.sh 
+  258  vi script.sh 
+  259  ./script.sh 
+  260  cat ws5.txt 
+  261  vi script.sh 
+  262  clear
+  263  ./script.sh 
+  264  cat ws5.txt 
+  265  rm -r UnitedStates
+  266  mkdir UnitedStates
+  267  clear
+  268  ./script.sh 
+  269  cat ws5.txt 
+  270  rm ws5.txt 
+  271  clear
+  272  ./script.sh 
+  273  cat ws5.txt 
+  274  ls
+  275  clear
+  276  ls
+  277  rm UnitedStates
+  278  rm -r UnitedStates
+  279  mkdir UnitedStates
+  280  rm ws5.txt 
+  281  ./script.sh 
+  282  cat ws5.txt 
+  283  vi script.sh 
+  284  ls
+  285  rm ws5.txt 
+  286  rm -r UnitedStates
+  287  mkdir UnitedStates
+  288  ./script.sh 
+  289  cat ws5.txt 
+  290  vi script.sh 
+  291  clear
+  292  rm -r UnitedStates
+  293  mkdir UnitedStates
+  294  rm ws5.txt 
+  295  ./script.sh 
+  296  cat ws5.txt 
+  297  history >> cmds.log

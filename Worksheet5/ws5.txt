@@ -1,7 +1,7 @@
 Number of Entries in Category: Music
-72 UnitedStates/Music.txt
+73 UnitedStates/Music.txt
 Number of Entries in Category: Entertainment
-65 UnitedStates/Entertainment.txt
+68 UnitedStates/Entertainment.txt
 Number of Entries in Category: Gaming
 26 UnitedStates/Gaming.txt
 Number of Entries in Category: Comedy
