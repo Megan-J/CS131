@@ -54,3 +54,146 @@ Fixing some issues in the shell script
    37  ls
    38  cat ws5.txt 
    39  history > cmds.log
+
+
+Fixing more changes
+    1  vi script.sh 
+    2  cd UnitedStates/
+    3  ls
+    4  rm Comedy.txt 
+    5  rm Entertainment.txt 
+    6  rm Gaming.txt 
+    7  rm Music.txt 
+    8  cd ..
+    9  ./script.sh 
+   10  clear
+   11  ls
+   12  cd UnitedStates/
+   13  ls
+   14  cd ..
+   15  vi script.sh 
+   16  grep ',United States,US,' Global\ YouTube\ Statistics.csv 
+   17  clear
+   18  ./script.sh 
+   19  vi script.sh 
+   20  clear
+   21  grep ',United States,US,' 'Global YouTube Statistics.csv'
+   22  clear
+   23  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," '$5 == "Music" {print $5}' UnitedStatesData.txt
+   24  ls
+   25  vi script.sh 
+   26  clear
+   27  ./script.sh 
+   28  ls
+   29  cd UnitedStates/
+   30  ls
+   31  cd ..
+   32  rm ws5.txt 
+   33  cd UnitedStates/
+   34  rm Comedy.txt 
+   35  rm Entertainment.txt 
+   36  rm Gaming.txt 
+   37  rm Music.txt 
+   38  ls
+   39  cd ..
+   40  ls
+   41  clear
+   42  ./script.sh 
+   43  cat ws5.txt 
+   44  ls
+   45  cd UnitedStates/
+   46  ls
+   47  cat Music.txt 
+   48  vi s
+   49  cd ..
+   50  vi script.sh 
+   51  vi UnitedStatesData.txt 
+   52  cat ws5.txt 
+   53  clear
+   54  ls
+   55  vi script.sh 
+   56  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," 'if($5 == “Music”) {print}' UnitedStatesData.txt >> UnitedStates/Music.txt
+   57  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," 'if($5 == “Music”) print}' UnitedStatesData.txt >> UnitedStates/Music.txt
+   58  grep ',United States,US,' 'Global YouTube Statistics.csv' | awk -F "," '{if($5 == "Music") print}' UnitedStatesData.txt >> UnitedStates/Music.txt
+   59  cd UnitedStates/
+   60  wc -l Music.txt 
+   61  cd ..
+   62  vi script.sh 
+   63  ls
+   64  rm -r UnitedStates
+   65  ls
+   66  rm ws5.txt 
+   67  ls
+   68  clear
+   69  ./script.sh 
+   70  ls
+   71  mkdir UnitedStates
+   72  ./script.sh 
+   73  ls
+   74  cd UnitedStates/
+   75  cd ..
+   76  cat ws5.txt 
+   77  vi script.sh 
+   78  clear
+   79  awk -F "," '{if($5 == "${category_name}") print}' UnitedStatesData.txt >> UnitedStates/${category_name}.txt;
+   80  clear
+   81  ls
+   82  head UnitedStates
+   83  head UnitedStatesData.txt 
+   84  clear
+   85  vi script.sh 
+   86  ./script.sh 
+   87  ls
+   88  cat ws5.txt 
+   89  vi script.sh 
+   90  ./script.sh 
+   91  cat ws5.txt 
+   92  rm ws5.txt 
+   93  clear
+   94  vi script.sh 
+   95  clear
+   96  ./script.sh 
+   97  cat ws5.txt 
+   98  vi script.sh 
+   99  ./script.sh 
+  100  vi ws5.txt 
+  101  vi script.sh 
+  102  vi ws5.txt 
+  103  rm ws5.txt 
+  104  ./script.sh 
+  105  vi script.sh 
+  106  clear
+  107  ./script.sh 
+  108  ls
+  109  cat ws5.txt 
+  110  ls
+  111  vi script.sh 
+  112  rm ws5.txt 
+  113  UnitedStates/
+  114  cd UnitedStates/
+  115  ls
+  116  rm Comedy.txt 
+  117  rm Entertainment.txt 
+  118  rm Gaming.txt 
+  119  rm Music.txt 
+  120  ls
+  121  clear
+  122  cd ..
+  123  ./script.sh 
+  124  ls
+  125  cat ws5.txt 
+  126  clear
+  127  vi script.sh 
+  128  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music,*" 'Global YouTube Statistics.csv' | wc -l 
+  129  vi script.sh 
+  130  l
+  131  ls
+  132  rm ws5.txt 
+  133  rm -r UnitedStates
+  134  mkdir UnitedStates
+  135  ls
+  136  ./script.sh 
+  137  ls
+  138  cat ws5.txt 
+  139  git add .
+  140  history >> cmds.log 
