@@ -1,0 +1,15 @@
+1. I first started by using trying to grep all the data I needed for the inference which was release date and duration.
+
+grep -Eo '(",20[0-9]*[a-zA-Z,-]*[0-9]*,[0-9]*\s[a-zA-Z]*,|",19[0-9]*[a-zA-Z,-]*[0-9]*,[0-9]*\s[a-z]*)' netflix_titles.csv >uncleaned_data_inference_2
+
+2. This stored all of the data I needed in a file uncleaned_data_inference_2 where I then used another set of grep statements to split the file into one for number of seasons and another for the minutes of each data points.
+
+grep -v "\sS" uncleaned_data_inference_2 | cut -d " " -f1 > numSeasons_inf2
+grep "\sS" uncleaned_data_inference_2 | cut -d " " -f1 > numSeasons_inf2
+
+3. After getting these two files together I used awk to get the data in the exact csv form that I needed in order to run my python script on it:
+
+awk -F"," 'BEGIN{print "release_date,duration_mins"} {print $2","$4}' numMins_inf2 > test
+cat test > numMins_inf2
+awk -F"," 'BEGIN{print "release_date,duration_seasons"} {print $2","$4}' numSeasons_inf2 > test
+cat test > numSeasons_inf2
