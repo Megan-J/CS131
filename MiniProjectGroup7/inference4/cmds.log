@@ -1,0 +1,198 @@
+  HISTORY FILE TRUNCATED
+
+  FIGURING OUT COMMANDS
+
+  989  cd cs131
+  990  ls
+  991  mkdir FinalProject
+  992  cd FinalProject/
+  993  git clone https://github.com/Megan-J/CS131/tree/main/MiniProjectGroup7
+  994  git clone https://github.com/Megan-J/CS131.git
+  995  ls
+  996  cd CS131/
+  997  ls
+  998  cd MiniProjectGroup7/
+  999  ls
+ 1000  head netflix_titles.csv 
+ 1001  cd cs131/FinalProject/CS131/
+ 1002  ls
+ 1003  cd MiniProjectGroup7/
+ 1004  ls
+ 1005  cd sunidhi/
+ 1006  ls
+ 1007  head -5 netflix_titles.csv 
+ 1010  cd ..
+ 1011  git status
+ 1012  git pull
+ 1013  ls
+ 1015  pwd
+ 1016  mv sunidhi inference4
+ 1018  cd inference4
+ 1019  ls
+ 1020  grep -oE "[0-9]{4}, [A-Z0-9-]*,[0-9]*\s[a-zA-Z]*,\"[a-zA-Z&,'-]*\"" netflix_titles.csv
+ 1021  grep -oE "[0-9]{4},[A-Z0-9-]*,[0-9]*\s[a-zA-Z]*,\"[a-zA-Z&,'-]*\"" netflix_titles.csv
+ 1022  grep -oe "[0-9]{4},[A-Z0-9-]*,[0-9]*\s[a-zA-Z]*,\"[a-zA-Z&,'-]*\"" netflix_titles.csv
+ 1023  ls
+ 1024  grep -e "[0-9]{4},[A-Z0-9-]*,[0-9]*\s[a-zA-Z]*,\"[a-zA-Z&,'-]*\"" netflix_titles.csv
+ 1025  grep -e "[0-9]{4}," netflix_titles.csv
+ 1026  grep -e "[0-9]{4}" netflix_titles.csv
+ 1027  awk -F ',' '$2 == "Movie" {print}' netflix_titles.csv 
+ 1028  awk -F ',' '$2 == "Movie" {print}' netflix_titles.csv | wc -l
+ 1029  awk -F ',' '$2 == "Movie" {print}' netflix_titles.csv >> movies.txt
+ 1030  ls
+ 1033  grep -E "\"[^"]*"*$" movies.txt
+ 1034  grep -E "\"[^"]*\"*$" movies.txt
+ 1035  grep -E "\"[^\"]*\"*$" movies.txt
+ 1036  grep -E "\"[^\"]*\"*$" movies.txt | wc -l
+ 1038  cat movies.txt | wc -l
+ 1039  grep -E "\"[^\"]*\"*$" movies.txt
+ 1040  grep -E "\"[^\"]*\"*$" movies.txt | wc -l
+ 1041  cat movies.txt | wc -l
+ 1042  grep -E '[0-9]{4}' movies.txt
+ 1043  grep -E '[0-9]{4}' movies.txt | wc -l
+ 1044  grep -E '[0-9]{4},' movies.txt
+ 1045  grep -E '[0-9]{4},' movies.txt | wc -l
+ 1046  grep -E '[^s][0-9]{4},' movies.txt
+ 1047  grep -E '[^s][0-9]{4},' movies.txt | wc -l
+ 1050  grep -E ',[0-9]{4},' movies.txt | wc -l
+ 1051  grep -E ',[0-9]{4}.*$' movies.txt
+ 1052  grep -E ',[0-9]{4}.*$' movies.txt | wc -l
+ 1053  grep -E ',[0-9]{4}.*$' movies.txt | awk -F ',' '{print $1}'
+ 1054  grep -E ',[0-9]{4}.*$' movies.txt | wc -l
+ 1055  grep -E ',[0-9]{4}.*$' movies.txt >> yearAndAfter
+ 1056  awk -F ',' '{print $1}' yearAndAfter 
+ 1057  grep -E ',[0-9]{4}.*$' movies.txt 
+ 1058  grep -oE ',[0-9]{4}.*$' movies.txt 
+ 1059  ls
+ 1060  rm yearAndAfter 
+ 1061  grep -oE ',[0-9]{4}.*$' movies.txt >> yearAndAfter.txt
+ 1062  awk -F ',' '{print $1}' yearAndAfter.txt 
+ 1063  awk -F ',' '{print $2}' yearAndAfter.txt 
+ 1064  awk -F ',' '{print $2, $3}' yearAndAfter.txt 
+ 1065  awk -F ',' '{print $2, $3}' yearAndAfter.txt | wc -l
+ 1066  awk -F ',' '{print $3}' yearAndAfter.txt | sort | uniq
+ 1067  awk -F ',' '{print $3}' yearAndAfter.txt | sort | uniq | wc -l
+ 1068  awk -F ',' '{print $2}' yearAndAfter.txt | sort | uniq 
+ 1069  grep -oE ',[0-9]{4},' movies.txt 
+ 1070  grep -E ',[0-9]{4},' movies.txt 
+ 1072  ls
+ 1073  cp movies.txt moviesCopy.txt
+ 1074  ls
+ 1075  sed -En 's/,[0-9]{4},//p' moviesCopy.txt 
+ 1076  sed -En 's/,[0-9]{4},//p' moviesCopy.txt | wc -l
+ 1077  sed -En 's/(.*),[0-9]{4},//p' moviesCopy.txt
+ 1078  sed -En 's/(.*),[0-9]{4},//p' moviesCopy.txt | awk -F ',' '{print $1}'
+ 1079  sed -En 's/(.*),[0-9]{4},//p' moviesCopy.txt | awk -F ',' '{print $1}' | sort | uniq
+ 1080  sed -En 's/(.*),[0-9]{4},//p' moviesCopy.txt | awk -F ',' '{print $1}' | wc -l
+ 1081  grep -E ',[0-9]{4},' movies.txt
+ 1082  grep -E '(,[0-9]{4},).*' movies.txt
+ 1083  grep -E '(,[0-9]{4},).*' movies.txt | wc -l
+ 1084  ls
+ 1085  head yearAndAfter.txt 
+ 1087  rm yearAndAfter.txt 
+ 1088  ls
+ 1089  grep -E '(,[0-9]{4},).*' movies.txt >> yearAndAfter.txt
+ 1090  ls
+ 1091  awk -F ',' '{print $2, $3}' yearAndAfter.txt
+ 1092  rm yearAndAfter.txt 
+ 1093  grep -oE '(,[0-9]{4},).*' movies.txt >> yearAndAfter.txt
+ 1094  awk -F ',' '{print $2, $3}' yearAndAfter.txt
+ 1095  awk -F ',' '{print $2}' yearAndAfter.txt | sort | uniq
+ 1096  grep -oE '(",[0-9]{4},).*' movies.txt
+ 1097  grep -oE '(",[0-9]{4},).*' movies.txt | wc -l
+ 1098  ls
+ 1099  rm yearAndAfter.txt 
+ 1100  grep -oE '(",[0-9]{4},).*' movies.txt >> yearAndAfter.txt
+ 1101  awk -F ',' '{print $2}' yearAndAfter.txt | sort | uniq
+ 1102  awk -F ',' '{print $3}' yearAndAfter.txt | sort | uniq
+ 1103  ls
+ 1104  head yearAndAfter.txt 
+ 1105  vi script.sh
+ 1106  bash script.sh 
+ 1107  vi script.sh
+ 1108  bash script.sh 
+ 1109  bash script.sh | wc -l
+ 1110  vi script.sh
+ 1111  bash script.sh
+ 1112  ls
+ 1113  cat G.txt 
+ 1114  cat PG.txt 
+ 1115  cat PG_13.txt 
+ 1116  ls
+ 1117  cat R.txt 
+ 1118  ls
+ 1119  vi script.sh
+ 1120  rm G.txt PG.txt PG_13.txt R.txt TV_14.txt TV_MA.txt TV_PG.txt 
+ 1121  ls
+ 1122  bash script.sh 
+ 1123  cat G.txt | sort | uniq -c
+ 1124  vi script.sh 
+ 1125  ls
+ 1126  rm G.txt PG.txt PG_13.txt R.txt TV_14.txt TV_MA.txt TV_PG.txt 
+ 1127  ls
+ 1128  bash script.sh 
+ 1129  cat G.txt 
+ 1130  ls
+ 1131  cat G.txt 
+ 1132  cat PG_13.txt 
+ 1133  vi G.txt 
+ 1134  vi script.sh 
+ 1135  ls
+ 1136  rm G.txt PG_13.txt PG.txt R.txt TV_14.txt TV_G.txt TV_MA.txt TV_PG.txt 
+ 1137  bash script.sh 
+ 1138  vi script.sh 
+ 1139  ls
+ 1140  cat G.txt 
+ 1141  cat G_sorted.txt 
+ 1142  ls
+ 1143  vi script.sh 
+ 1144  rm G_sorted.txt PG_13.txt R_sorted.txt TV_14_sorted.txt TV_MA_sorted.txt TV_PG.txt G.txt PG_sorted.txt R.txt TV_14.txt TV_MA.txt PG_13_sorted.txt PG.txt TV_G_sorted.txt TV_PG_sorted.txt
+ 1145  ls
+ 1146  bash script.sh 
+ 1147  ls
+ 1148  mkdir files
+ 1149  ls
+ 1150  bash script.sh 
+ 1151  ls
+ 1152  cd files/
+ 1153  ls
+ 1154  cat PG_sorted.txt 
+ 1155  vi sc
+ 1156  cd ..
+ 1157  vi script.sh 
+ 1158  ls
+ 1159  mv movies.txt goodMovies.txt
+ 1160  ls
+ 1161  rmdir files
+ 1162  rm files
+ 1163  rm -r files
+ 1164  ls
+ 1165  bash script.sh 
+ 1166  ls
+ 1167  head movies.txt 
+ 1168  cd files
+ 1169  ls
+ 1170  cat G.txt
+ 1171  cd ..
+ 1172  ls
+ 1173  cd ..
+ 1174  ls
+
+ COMMANDS FOR INFERENCE 4 (mostly in script.sh)
+
+ 1175  cd inference4
+ 1176  ls
+ 1177  awk -F ',' '$2 == "Movie" {print}' netflix_titles.csv > movies.txt
+ 1180  grep -oE '(",[0-9]{4},).*' movies.txt > yearAndAfter.txt
+ 1181  awk -F ',' '{print $3}' yearAndAfter.txt 
+ 1182  awk -F ',' '{print $3}' yearAndAfter.txt | sort | uniq
+ 1183  awk -F ',' '{print $2}' yearAndAfter.txt 
+ 1184  ls
+ 1185  vi script.sh 
+ 1186  bash script.sh 
+ 1187  ls
+ 1188  cd files
+ 1189  ls
+ 1190  cat G_sorted.txt 
+ 1191  cd ..
+ 1193  history > cmds.log
